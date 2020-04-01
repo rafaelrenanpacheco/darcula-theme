@@ -1,0 +1,153 @@
+{
+    "name": "Darcula (JetBrains)",
+    "type": "dark",
+    "colors": {
+        "activityBar.background": "#ffffff1a",
+        "activityBarBadge.background": "#007acc",
+        "badge.background": "#ffffff1a",
+        "editor.background": "#2b2b2b",
+        "editor.foreground": "#a9b7c6",
+        "editor.lineHighlightBackground": "#ffffff0b",
+        "editor.selectionBackground": "#204182cc",
+        "editorGutter.background": "#ffffff0b",
+        "editorSuggestWidget.background": "#303030",
+        "editorSuggestWidget.highlightForeground": "#cc6e2f",
+        "editorSuggestWidget.selectedBackground": "#204182cc",
+        "focusBorder": "#ffffff00",
+        "list.hoverBackground": "#ffffff0b",
+        "sideBar.background": "#2b2b2b",
+        "sideBar.border": "#ffffff1a",
+        "statusBar.background": "#ffffff1a",
+        "statusBar.foreground": "#cccccc",
+        "tab.activeBackground": "#ffffff1a",
+        "tab.activeBorder": "#0c7d9d",
+        "tab.inactiveBackground": "#ffffff0b",
+        "titleBar.activeBackground": "#ffffff1a",
+        "titleBar.activeForeground": "#cccccc",
+        "titleBar.inactiveBackground": "#ffffff10"
+    },
+    "tokenColors": [
+        {
+            "scope": [
+                "constant.language.java",
+                "keyword.control.java",
+                "keyword.control.new.java",
+                "keyword.control.throw.java",
+                "keyword.other.import.java",
+                "keyword.other.package.java",
+                "storage.modifier.java",
+                "storage.modifier.extends.java",
+                "storage.modifier.implements.java",
+                "storage.type.primitive.java",
+                "storage.type.primitive.array.java",
+                "variable.language.this.java"
+            ],
+            "settings": {
+                "foreground": "#cc7832"
+            }
+        },
+        {
+            "scope": [
+                "constant.other.enum.java",
+                "variable.other.definition.java",
+                "variable.other.object.property.java",
+                "variable.other.property.java"
+            ],
+            "settings": {
+                "foreground": "#9876aa"
+            }
+        },
+        {
+            "scope": [
+                "meta.method-call.java variable.other.property.java"
+            ],
+            "settings": {
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": [
+                "meta.method.body.java variable.other.definition.java"
+            ],
+            "settings": {
+                "foreground": "#a9b7c6"
+            }
+        },
+        {
+            "scope": [
+                "constant.numeric.decimal.java"
+            ],
+            "settings": {
+                "foreground": "#6897bb"
+            }
+        },
+        {
+            "scope": [
+                "comment.block.java",
+                "comment.line.double-slash.java"
+            ],
+            "settings": {
+                "foreground": "#808080"
+            }
+        },
+        {
+            "scope": [
+                "comment.block.javadoc.java"
+            ],
+            "settings": {
+                "foreground": "#629755",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": [
+                "comment.block.javadoc.java variable.parameter.java"
+            ],
+            "settings": {
+                "foreground": "#8a653b"
+            }
+        },
+        {
+            "scope": [
+                "keyword.other.documentation.javadoc.java"
+            ],
+            "settings": {
+                "fontStyle": "italic bold"
+            }
+        },
+        {
+            "scope": [
+                "punctuation.definition.annotation.java",
+                "storage.type.annotation.java"
+            ],
+            "settings": {
+                "foreground": "#bbb529"
+            }
+        },
+        {
+            "scope": [
+                "meta.declaration.annotation.java constant.other.key.java"
+            ],
+            "settings": {
+                "foreground": "#d0d0ff"
+            }
+        },
+        {
+            "scope": [
+                "meta.method.identifier.java entity.name.function.java"
+            ],
+            "settings": {
+                "foreground": "#ffc66d"
+            }
+        },
+        {
+            "scope": [
+                "string.quoted.double.java",
+                "string.quoted.single.java"
+            ],
+            "settings": {
+                "foreground": "#6a8759"
+            }
+        }
+    ]
+}

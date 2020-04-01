@@ -1,0 +1,38 @@
+{
+    "name": "darcula-theme",
+    "displayName": "Darcula Theme",
+    "description": "Darcula theme based on JetBrains IDE - Supports Java",
+    "version": "1.0.0",
+    "publisher": "rafaelrenanpacheco",
+    "author": {
+        "name": "Rafael Renan Pacheco"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/rafaelrenanpacheco/darcula-theme"
+    },
+    "homepage": "https://github.com/rafaelrenanpacheco/darcula-theme/blob/master/README.md",
+    "keywords": [
+        "theme",
+        "darcula",
+        "intellij",
+        "jetbrains",
+        "java"
+    ],
+    "engines": {
+        "vscode": "^1.43.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "icon": "icon.png",
+    "contributes": {
+        "themes": [
+            {
+                "label": "Darcula (JetBrains)",
+                "uiTheme": "vs-dark",
+                "path": "./themes/darcula.color-theme.json"
+            }
+        ]
+    }
+}
