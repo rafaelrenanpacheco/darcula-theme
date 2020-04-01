@@ -1,7 +1,7 @@
 {
     "name": "darcula-theme",
     "displayName": "Darcula Theme",
-    "description": "Darcula theme based on JetBrains IDE - Supports Java",
+    "description": "Darcula theme based on IntelliJ IDEA - Supports Java",
     "version": "1.0.0",
     "publisher": "rafaelrenanpacheco",
     "author": {
@@ -29,7 +29,7 @@
     "contributes": {
         "themes": [
             {
-                "label": "Darcula (JetBrains)",
+                "label": "Darcula (IntelliJ)",
                 "uiTheme": "vs-dark",
                 "path": "./themes/darcula.color-theme.json"
             }
