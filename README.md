@@ -1,5 +1,5 @@
 # Darcula (IntelliJ)
-Darcula theme for [Visual Studio Code](https://code.visualstudio.com) based on [IntelliJ IDEA](https://www.jetbrains.com/idea) - Supports Java
+Darcula theme for [Visual Studio Code](https://code.visualstudio.com) based on [IntelliJ IDEA](https://www.jetbrains.com/idea)
 
 ## Supported languages
 * Java
