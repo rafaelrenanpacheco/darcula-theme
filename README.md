@@ -19,7 +19,7 @@ You can customize the colors to your liking, overriding the ones provided by thi
 
 ## Known issues
 * Fields without `this` keyword are not (yet) properly colorized. They will receive the default foreground color. This is an issue regarding the tokenization for the Java language, and was already reported upstream. You can follow it [here](https://github.com/atom/language-java/issues/224).
-* Generic type definition will get default foreground color due wrong tokenization.
+* Generic type definition will get default foreground color due incomplete tokenization.
 * Some colors will not be applied due the lack of semantics or more advanced tokenization support.
 
 ## TODO
