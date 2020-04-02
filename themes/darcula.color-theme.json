@@ -30,6 +30,7 @@
         {
             "scope": [
                 "constant.language.java",
+                "constant.language.json.comments",
                 "keyword.control.java",
                 "keyword.control.new.java",
                 "keyword.control.throw.java",
@@ -49,6 +50,7 @@
         {
             "scope": [
                 "constant.other.enum.java",
+                "support.type.property-name.json.comments",
                 "variable.other.definition.java",
                 "variable.other.object.property.java",
                 "variable.other.property.java"
@@ -75,7 +77,8 @@
         },
         {
             "scope": [
-                "constant.numeric.decimal.java"
+                "constant.numeric.decimal.java",
+                "constant.numeric.json.comments"
             ],
             "settings": {
                 "foreground": "#6897bb"
@@ -143,6 +146,7 @@
         {
             "scope": [
                 "string.quoted.double.java",
+                "string.quoted.double.json.comments",
                 "string.quoted.single.java"
             ],
             "settings": {
