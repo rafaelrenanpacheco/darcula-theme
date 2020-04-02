@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.1.1]
+- Java - Add missing try/catch color
+- JSON - Set rules for both regular and commented syntax
+
 ## [1.1.0]
 - Add support for JSON, XML, YAML and Properties
 

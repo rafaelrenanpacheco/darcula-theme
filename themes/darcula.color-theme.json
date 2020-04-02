@@ -30,11 +30,13 @@
         {
             "scope": [
                 "constant.language.java",
-                "constant.language.json.comments",
+                "constant.language.json",
                 "entity.name.tag.yaml",
+                "keyword.control.catch.java",
                 "keyword.control.java",
                 "keyword.control.new.java",
                 "keyword.control.throw.java",
+                "keyword.control.try.java",
                 "keyword.other.DDL.create.II.sql",
                 "keyword.other.definition.ini",
                 "keyword.other.import.java",
@@ -56,7 +58,7 @@
         {
             "scope": [
                 "constant.other.enum.java",
-                "support.type.property-name.json.comments",
+                "support.type.property-name.json",
                 "variable.other.definition.java",
                 "variable.other.object.property.java",
                 "variable.other.property.java"
@@ -84,7 +86,7 @@
         {
             "scope": [
                 "constant.numeric.decimal.java",
-                "constant.numeric.json.comments",
+                "constant.numeric.json",
                 "constant.numeric.sql"
             ],
             "settings": {
@@ -158,7 +160,7 @@
             "scope": [
                 "source.ini",
                 "string.quoted.double.java",
-                "string.quoted.double.json.comments",
+                "string.quoted.double.json",
                 "string.quoted.double.sql",
                 "string.quoted.double.xml",
                 "string.quoted.double.yaml",
