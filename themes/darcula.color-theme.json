@@ -31,6 +31,7 @@
             "scope": [
                 "constant.language.java",
                 "constant.language.json.comments",
+                "entity.name.tag.yaml",
                 "keyword.control.java",
                 "keyword.control.new.java",
                 "keyword.control.throw.java",
@@ -150,7 +151,9 @@
                 "source.ini",
                 "string.quoted.double.java",
                 "string.quoted.double.json.comments",
-                "string.quoted.single.java"
+                "string.quoted.double.yaml",
+                "string.quoted.single.java",
+                "string.quoted.single.yaml"
             ],
             "settings": {
                 "foreground": "#6a8759"
