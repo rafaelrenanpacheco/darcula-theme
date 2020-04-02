@@ -40,7 +40,9 @@ The following languages are common for Visual Studio Code users and will be supp
 ## Contribution
 It's very easy to make contributions for this project. You can follow the [official documentation](https://code.visualstudio.com/api/extension-guides/color-theme#test-a-new-color-theme) to learn more details, but to keep it short you can do this:
 * Fork this project and clone to your computer.
-* Open the project on Visual Studio Code, and press F5 to start the `Extension Development Host` mode.
+* Open the project on Visual Studio Code.
+  * If this theme is installed, disable it before following the next steps.
+* Press F5 to start the `Extension Development Host` mode.
 * On the development host make sure this theme is selected.
 * Open a folder or a file to preview the changes you will make.
 * Open the `themes/darcula.color-theme.json` where you can see the many `tokenColors` rules.
