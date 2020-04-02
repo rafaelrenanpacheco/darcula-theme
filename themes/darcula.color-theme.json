@@ -9,6 +9,7 @@
         "editor.foreground": "#a9b7c6",
         "editor.lineHighlightBackground": "#ffffff0b",
         "editor.selectionBackground": "#204182cc",
+        "editorError.foreground": "#cc7832",
         "editorGutter.background": "#ffffff0b",
         "editorSuggestWidget.background": "#303030",
         "editorSuggestWidget.highlightForeground": "#cc6e2f",
@@ -96,8 +97,10 @@
         {
             "scope": [
                 "comment.block.java",
+                "comment.block.json.comments",
                 "comment.block.xml",
                 "comment.line.double-slash.java",
+                "comment.line.double-slash.js",
                 "punctuation.separator.key-value.ini"
             ],
             "settings": {
@@ -106,6 +109,7 @@
         },
         {
             "scope": [
+                "comment.block.documentation.json.comments",
                 "comment.block.javadoc.java"
             ],
             "settings": {
