@@ -89,6 +89,7 @@
         {
             "scope": [
                 "comment.block.java",
+                "comment.block.xml",
                 "comment.line.double-slash.java",
                 "punctuation.separator.key-value.ini"
             ],
@@ -140,7 +141,9 @@
         },
         {
             "scope": [
-                "meta.method.identifier.java entity.name.function.java"
+                "entity.name.tag.localname.xml",
+                "meta.method.identifier.java entity.name.function.java",
+                "punctuation.definition.tag.xml"
             ],
             "settings": {
                 "foreground": "#ffc66d"
@@ -151,8 +154,10 @@
                 "source.ini",
                 "string.quoted.double.java",
                 "string.quoted.double.json.comments",
+                "string.quoted.double.xml",
                 "string.quoted.double.yaml",
                 "string.quoted.single.java",
+                "string.quoted.single.xml",
                 "string.quoted.single.yaml"
             ],
             "settings": {
