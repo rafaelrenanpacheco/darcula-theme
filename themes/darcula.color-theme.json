@@ -35,14 +35,18 @@
                 "keyword.control.java",
                 "keyword.control.new.java",
                 "keyword.control.throw.java",
+                "keyword.other.DDL.create.II.sql",
                 "keyword.other.definition.ini",
                 "keyword.other.import.java",
                 "keyword.other.package.java",
-                "storage.modifier.java",
+                "keyword.other.sql",
                 "storage.modifier.extends.java",
                 "storage.modifier.implements.java",
-                "storage.type.primitive.java",
+                "storage.modifier.java",
+                "storage.modifier.sql",
                 "storage.type.primitive.array.java",
+                "storage.type.primitive.java",
+                "storage.type.sql",
                 "variable.language.this.java"
             ],
             "settings": {
@@ -80,7 +84,8 @@
         {
             "scope": [
                 "constant.numeric.decimal.java",
-                "constant.numeric.json.comments"
+                "constant.numeric.json.comments",
+                "constant.numeric.sql"
             ],
             "settings": {
                 "foreground": "#6897bb"
@@ -154,9 +159,11 @@
                 "source.ini",
                 "string.quoted.double.java",
                 "string.quoted.double.json.comments",
+                "string.quoted.double.sql",
                 "string.quoted.double.xml",
                 "string.quoted.double.yaml",
                 "string.quoted.single.java",
+                "string.quoted.single.sql",
                 "string.quoted.single.xml",
                 "string.quoted.single.yaml"
             ],

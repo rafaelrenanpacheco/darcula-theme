@@ -4,6 +4,7 @@ Darcula theme for [Visual Studio Code](https://code.visualstudio.com) based on [
 ## Supported syntax
 * Java
 * JSON
+* SQL
 * XML
 * YAML
 * Properties
@@ -22,12 +23,12 @@ Take a look at the [changelog](CHANGELOG.md).
 You can customize the colors to your liking, overriding the ones provided by this theme. To know how to customize, [click here](https://code.visualstudio.com/api/references/theme-color) for the official documentation.
 
 ## Known issues
-* Fields without `this` keyword are not (yet) properly colorized. They will receive the default foreground color. This is an issue regarding the tokenization for the Java language, and was already reported upstream. You can follow it [here](https://github.com/atom/language-java/issues/224).
-* Some colors will not be applied due the lack of semantics or more advanced tokenization support.
+* Java - Fields without `this` keyword are not (yet) properly colorized. They will receive the default foreground color. This is an issue regarding the tokenization for the Java language, and was already reported upstream. You can follow it [here](https://github.com/atom/language-java/issues/224).
+* Java - Some colors will not be applied due the lack of semantics or more advanced tokenization support.
+* SQL - Some colors will not be applied, or will be wrongly applied due bugs on tokenization.
 
 ## TODO
 The following syntax are common on Java projects and will be supported by this theme:
-* SQL
 * Dockerfile
 * Markdown
 
