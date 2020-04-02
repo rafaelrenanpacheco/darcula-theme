@@ -5,6 +5,8 @@ Darcula theme for [Visual Studio Code](https://code.visualstudio.com) based on [
 * Java
 
 ## Screenshots
+![Java-Entity](screenshots/java-entity.png)
+![Java-Controller](screenshots/java-controller.png)
 
 ## Download
 This extension is available for free in the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=rafaelrenanpacheco.darcula-theme).
@@ -47,3 +49,7 @@ It's very easy to contribute to this theme. You can follow the [official documen
 * Submit a PR.
 
 In order to identify the `scope` value go to your file that you are using as reference. Then press `ctrl + shit + p`, search and execute `Developer: Inspect Editor Tokens and Scopes`. Now click on the token that you wish to customize and the inspector will show you the scopes related to that token.
+
+## Credits
+* The editor colors were based on [rokoroku/vscode-theme-darcula](https://github.com/rokoroku/vscode-theme-darcula) theme, and changed a little in order to become more like IntelliJ's.
+* The token colors were made from scratch and based on IntelliJ IDEA.
