@@ -4,6 +4,7 @@ Darcula theme for [Visual Studio Code](https://code.visualstudio.com) based on [
 ## Supported syntax
 * Java
 * JSON
+* Properties
 
 ## Screenshots
 ![Java-Entity](screenshots/java-entity.png)
@@ -24,7 +25,6 @@ You can customize the colors to your liking, overriding the ones provided by thi
 
 ## TODO
 The following languanges and filetypes are common on Java projects and will be supported by this theme:
-* `.properties` file
 * YAML
 * SQL
 * XML

@@ -34,6 +34,7 @@
                 "keyword.control.java",
                 "keyword.control.new.java",
                 "keyword.control.throw.java",
+                "keyword.other.definition.ini",
                 "keyword.other.import.java",
                 "keyword.other.package.java",
                 "storage.modifier.java",
@@ -87,7 +88,8 @@
         {
             "scope": [
                 "comment.block.java",
-                "comment.line.double-slash.java"
+                "comment.line.double-slash.java",
+                "punctuation.separator.key-value.ini"
             ],
             "settings": {
                 "foreground": "#808080"
@@ -145,6 +147,7 @@
         },
         {
             "scope": [
+                "source.ini",
                 "string.quoted.double.java",
                 "string.quoted.double.json.comments",
                 "string.quoted.single.java"
