@@ -42,6 +42,7 @@
                 "keyword.other.definition.ini",
                 "keyword.other.import.java",
                 "keyword.other.package.java",
+                "keyword.other.special-method.dockerfile",
                 "keyword.other.sql",
                 "storage.modifier.extends.java",
                 "storage.modifier.implements.java",
@@ -101,6 +102,7 @@
                 "comment.block.xml",
                 "comment.line.double-slash.java",
                 "comment.line.double-slash.js",
+                "comment.line.number-sign.dockerfile",
                 "punctuation.separator.key-value.ini"
             ],
             "settings": {
@@ -163,11 +165,13 @@
         {
             "scope": [
                 "source.ini",
+                "string.quoted.double.dockerfile",
                 "string.quoted.double.java",
                 "string.quoted.double.json",
                 "string.quoted.double.sql",
                 "string.quoted.double.xml",
                 "string.quoted.double.yaml",
+                "string.quoted.single.dockerfile",
                 "string.quoted.single.java",
                 "string.quoted.single.sql",
                 "string.quoted.single.xml",
