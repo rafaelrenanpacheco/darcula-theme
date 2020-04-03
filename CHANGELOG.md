@@ -1,7 +1,7 @@
 # Change Log
 
 ## [1.2.0]
-- Add support for Dockerfile
+- Add support for Dockerfile and Markdown
 
 ## [1.1.2]
 - JSON - Add missing comment color for commented syntax

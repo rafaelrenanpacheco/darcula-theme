@@ -8,6 +8,7 @@ Darcula theme for [Visual Studio Code](https://code.visualstudio.com) based on [
 * XML
 * YAML
 * Dockerfile
+* Markdown
 * Properties
 
 ## Screenshots
@@ -29,9 +30,6 @@ You can customize the colors to your liking, overriding the ones provided by thi
 * SQL - Some colors will not be applied, or will be wrongly applied due bugs on tokenization.
 
 ## TODO
-The following syntax are common on Java projects and will be supported by this theme:
-* Markdown
-
 The following syntax are common for Visual Studio Code users and will be supported by this theme:
 * JavaScript
 * TypeScript

@@ -32,6 +32,7 @@
             "scope": [
                 "constant.language.java",
                 "constant.language.json",
+                "constant.other.reference.link.markdown",
                 "entity.name.tag.yaml",
                 "keyword.control.catch.java",
                 "keyword.control.java",
@@ -44,6 +45,10 @@
                 "keyword.other.package.java",
                 "keyword.other.special-method.dockerfile",
                 "keyword.other.sql",
+                "meta.link.reference.markdown",
+                "punctuation.definition.bold.markdown",
+                "punctuation.definition.constant.markdown",
+                "punctuation.definition.italic.markdown",
                 "storage.modifier.extends.java",
                 "storage.modifier.implements.java",
                 "storage.modifier.java",
@@ -60,6 +65,9 @@
         {
             "scope": [
                 "constant.other.enum.java",
+                "markup.heading.markdown",
+                "markup.heading.setext.1.markdown",
+                "markup.heading.setext.2.markdown",
                 "support.type.property-name.json",
                 "variable.other.definition.java",
                 "variable.other.object.property.java",
@@ -103,7 +111,12 @@
                 "comment.line.double-slash.java",
                 "comment.line.double-slash.js",
                 "comment.line.number-sign.dockerfile",
-                "punctuation.separator.key-value.ini"
+                "meta.separator.markdown",
+                "markup.fenced_code.block.markdown",
+                "markup.inline.raw.string.markdown",
+                "markup.raw.block.markdown",
+                "punctuation.separator.key-value.ini",
+                "string.other.link.description.title.markdown"
             ],
             "settings": {
                 "foreground": "#808080"
@@ -155,7 +168,10 @@
         {
             "scope": [
                 "entity.name.tag.localname.xml",
+                "markup.underline.link.image.markdown",
+                "markup.underline.link.markdown",
                 "meta.method.identifier.java entity.name.function.java",
+                "punctuation.definition.metadata.markdown",
                 "punctuation.definition.tag.xml"
             ],
             "settings": {
@@ -164,6 +180,7 @@
         },
         {
             "scope": [
+                "markup.quote.markdown",
                 "source.ini",
                 "string.quoted.double.dockerfile",
                 "string.quoted.double.java",
@@ -179,6 +196,23 @@
             ],
             "settings": {
                 "foreground": "#6a8759"
+            }
+        },
+        {
+            "scope": [
+                "meta.image.inline.markdown punctuation.definition.string.begin.markdown",
+                "meta.image.inline.markdown punctuation.definition.string.end.markdown",
+                "meta.link.inet.markdown markup.underline.link.markdown",
+                "meta.link.inline.markdown punctuation.definition.string.begin.markdown",
+                "meta.link.inline.markdown punctuation.definition.string.end.markdown",
+                "meta.link.reference.markdown punctuation.definition.string.begin.markdown",
+                "meta.link.reference.markdown punctuation.definition.string.end.markdown",
+                "punctuation.definition.link.markdown",
+                "string.other.link.description.markdown",
+                "string.other.link.title.markdown"
+            ],
+            "settings": {
+                "foreground": "#287bde"
             }
         }
     ]
