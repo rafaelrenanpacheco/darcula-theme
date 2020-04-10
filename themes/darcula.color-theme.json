@@ -30,18 +30,25 @@
     "tokenColors": [
         {
             "scope": [
+                "constant.language.groovy",
                 "constant.language.java",
                 "constant.language.json",
                 "constant.other.reference.link.markdown",
                 "entity.name.tag.yaml",
+                "keyword.control.assert.groovy",
                 "keyword.control.catch.java",
+                "keyword.control.groovy",
                 "keyword.control.java",
+                "keyword.control.new.groovy",
                 "keyword.control.new.java",
                 "keyword.control.throw.java",
                 "keyword.control.try.java",
+                "keyword.operator.in.groovy",
                 "keyword.other.DDL.create.II.sql",
                 "keyword.other.definition.ini",
+                "keyword.other.import.groovy",
                 "keyword.other.import.java",
+                "keyword.other.package.groovy",
                 "keyword.other.package.java",
                 "keyword.other.special-method.dockerfile",
                 "keyword.other.sql",
@@ -49,11 +56,17 @@
                 "punctuation.definition.bold.markdown",
                 "punctuation.definition.constant.markdown",
                 "punctuation.definition.italic.markdown",
+                "storage.modifier.access-control.groovy",
+                "storage.modifier.extends.groovy",
                 "storage.modifier.extends.java",
+                "storage.modifier.groovy",
                 "storage.modifier.implements.java",
                 "storage.modifier.java",
                 "storage.modifier.sql",
+                "storage.modifier.static.groovy",
+                "storage.type.def.groovy",
                 "storage.type.primitive.array.java",
+                "storage.type.primitive.groovy",
                 "storage.type.primitive.java",
                 "storage.type.sql",
                 "variable.language.this.java"
@@ -68,6 +81,7 @@
                 "markup.heading.markdown",
                 "markup.heading.setext.1.markdown",
                 "markup.heading.setext.2.markdown",
+                "meta.definition.variable.name.groovy",
                 "support.type.property-name.json",
                 "variable.other.definition.java",
                 "variable.other.object.property.java",
@@ -87,7 +101,8 @@
         },
         {
             "scope": [
-                "meta.method.body.java variable.other.definition.java"
+                "meta.method.body.java variable.other.definition.java",
+                "source.groovy.embedded.source"
             ],
             "settings": {
                 "foreground": "#a9b7c6"
@@ -96,6 +111,7 @@
         {
             "scope": [
                 "constant.numeric.decimal.java",
+                "constant.numeric.groovy",
                 "constant.numeric.json",
                 "constant.numeric.sql"
             ],
@@ -105,16 +121,18 @@
         },
         {
             "scope": [
+                "comment.block.groovy",
                 "comment.block.java",
                 "comment.block.json.comments",
                 "comment.block.xml",
+                "comment.line.double-slash.groovy",
                 "comment.line.double-slash.java",
                 "comment.line.double-slash.js",
                 "comment.line.number-sign.dockerfile",
-                "meta.separator.markdown",
                 "markup.fenced_code.block.markdown",
                 "markup.inline.raw.string.markdown",
                 "markup.raw.block.markdown",
+                "meta.separator.markdown",
                 "punctuation.separator.key-value.ini",
                 "string.other.link.description.title.markdown"
             ],
@@ -151,6 +169,7 @@
         {
             "scope": [
                 "punctuation.definition.annotation.java",
+                "storage.type.annotation.groovy",
                 "storage.type.annotation.java"
             ],
             "settings": {
@@ -180,15 +199,18 @@
         },
         {
             "scope": [
+                "constant.other.key.groovy",
                 "markup.quote.markdown",
                 "source.ini",
                 "string.quoted.double.dockerfile",
+                "string.quoted.double.groovy",
                 "string.quoted.double.java",
                 "string.quoted.double.json",
                 "string.quoted.double.sql",
                 "string.quoted.double.xml",
                 "string.quoted.double.yaml",
                 "string.quoted.single.dockerfile",
+                "string.quoted.single.groovy",
                 "string.quoted.single.java",
                 "string.quoted.single.sql",
                 "string.quoted.single.xml",

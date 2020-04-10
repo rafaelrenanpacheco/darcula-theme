@@ -3,6 +3,7 @@ Darcula theme for [Visual Studio Code](https://code.visualstudio.com) based on [
 
 ## Supported syntax
 * Java
+* Groovy
 * JSON
 * SQL
 * XML
