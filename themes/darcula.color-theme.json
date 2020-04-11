@@ -19,6 +19,7 @@
         "sideBar.background": "#2b2b2b",
         "sideBar.border": "#ffffff1a",
         "statusBar.background": "#ffffff1a",
+        "statusBar.noFolderBackground": "#ffffff1a",
         "statusBar.foreground": "#cccccc",
         "tab.activeBackground": "#ffffff1a",
         "tab.activeBorder": "#0c7d9d",
