@@ -185,6 +185,7 @@
             "scope": [
                 "comment.block.css",
                 "comment.block.groovy",
+                "comment.block.html",
                 "comment.block.java",
                 "comment.block.js",
                 "comment.block.json.comments",
@@ -275,6 +276,7 @@
                 "string.quoted.double.css",
                 "string.quoted.double.dockerfile",
                 "string.quoted.double.groovy",
+                "string.quoted.double.html",
                 "string.quoted.double.java",
                 "string.quoted.double.js",
                 "string.quoted.double.json",
@@ -284,13 +286,15 @@
                 "string.quoted.single.css",
                 "string.quoted.single.dockerfile",
                 "string.quoted.single.groovy",
+                "string.quoted.single.html",
                 "string.quoted.single.java",
                 "string.quoted.single.js",
                 "string.quoted.single.sql",
                 "string.quoted.single.xml",
                 "string.quoted.single.yaml",
                 "string.regexp.js",
-                "string.template.js"
+                "string.template.js",
+                "string.unquoted.html"
             ],
             "settings": {
                 "foreground": "#6a8759"
@@ -316,6 +320,7 @@
         },
         {
             "scope": [
+                "entity.name.tag.html",
                 "entity.other.attribute-name.id.css punctuation.definition.entity.css",
                 "entity.other.keyframe-offset.css",
                 "entity.other.keyframe-offset.percentage.css",
@@ -325,6 +330,8 @@
                 "meta.selector.css",
                 "punctuation.definition.character-class.regexp",
                 "punctuation.definition.group.regexp",
+                "punctuation.definition.tag.begin.html",
+                "punctuation.definition.tag.end.html",
                 "support.constant.media.css"
             ],
             "settings": {
