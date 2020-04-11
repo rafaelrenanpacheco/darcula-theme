@@ -1,8 +1,8 @@
 {
     "name": "darcula-theme",
     "displayName": "Darcula Theme",
-    "description": "Darcula theme based on IntelliJ IDEA - Supports Java, JavaScript and more",
-    "version": "1.5.0",
+    "description": "Darcula theme based on IntelliJ IDEA - Supports Java, JavaScript, TypeScript and more",
+    "version": "1.6.0",
     "publisher": "rafaelrenanpacheco",
     "author": {
         "name": "Rafael Renan Pacheco"

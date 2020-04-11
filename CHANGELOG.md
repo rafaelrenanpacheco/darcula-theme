@@ -1,5 +1,8 @@
 # Change Log
 
+## [1.6.0]
+- Add support for TypeScript and HTML
+
 ## [1.5.0]
 - Add support for JavaScript
 

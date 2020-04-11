@@ -4,7 +4,9 @@ Darcula theme for [Visual Studio Code](https://code.visualstudio.com) based on [
 ## Supported syntax
 * Java
 * JavaScript
+* TypeScript
 * Groovy
+* HTML
 * CSS
 * JSON
 * SQL
@@ -29,11 +31,6 @@ Take a look at the [changelog](CHANGELOG.md).
 
 ## Theme customization
 You can customize the colors to your liking, overriding the ones provided by this theme. To know how to customize, [click here](https://code.visualstudio.com/api/references/theme-color) for the official documentation.
-
-## TODO
-Add support for the following syntax:
-* TypeScript
-* HTML
 
 ## Contribution
 It's very easy to make contributions for this project. You can follow the [official documentation](https://code.visualstudio.com/api/extension-guides/color-theme#test-a-new-color-theme) to learn more details, but to keep it short you can do this:
