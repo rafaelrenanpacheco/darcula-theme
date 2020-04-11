@@ -3,6 +3,7 @@ Darcula theme for [Visual Studio Code](https://code.visualstudio.com) based on [
 
 ## Supported syntax
 * Java
+* JavaScript
 * Groovy
 * CSS
 * JSON
@@ -15,7 +16,10 @@ Darcula theme for [Visual Studio Code](https://code.visualstudio.com) based on [
 
 ## Screenshots
 ![Java-Entity](screenshots/java-entity.png)
+
 ![Java-Controller](screenshots/java-controller.png)
+
+![JavaScript](screenshots/javascript.png)
 
 ## Download
 This extension is available for free in the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=rafaelrenanpacheco.darcula-theme).
@@ -27,8 +31,7 @@ Take a look at the [changelog](CHANGELOG.md).
 You can customize the colors to your liking, overriding the ones provided by this theme. To know how to customize, [click here](https://code.visualstudio.com/api/references/theme-color) for the official documentation.
 
 ## TODO
-The following syntax are common for Visual Studio Code users and will be supported by this theme:
-* JavaScript
+Add support for the following syntax:
 * TypeScript
 * HTML
 

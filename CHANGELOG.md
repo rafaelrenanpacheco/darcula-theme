@@ -1,5 +1,8 @@
 # Change Log
 
+## [1.5.0]
+- Add support for JavaScript
+
 ## [1.4.0]
 - Add support for CSS
 
