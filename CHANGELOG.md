@@ -1,5 +1,8 @@
 # Change Log
 
+## [1.4.0]
+- Add support for CSS
+
 ## [1.3.0]
 - Add support for Groovy
 

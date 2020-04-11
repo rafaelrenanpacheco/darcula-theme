@@ -34,8 +34,13 @@
                 "constant.language.java",
                 "constant.language.json",
                 "constant.other.reference.link.markdown",
+                "entity.name.tag.wildcard.css",
                 "entity.name.tag.yaml",
                 "keyword.control.assert.groovy",
+                "keyword.control.at-rule.font-face.css",
+                "keyword.control.at-rule.import.css",
+                "keyword.control.at-rule.keyframes.css",
+                "keyword.control.at-rule.media.css",
                 "keyword.control.catch.java",
                 "keyword.control.groovy",
                 "keyword.control.java",
@@ -48,6 +53,7 @@
                 "keyword.other.definition.ini",
                 "keyword.other.import.groovy",
                 "keyword.other.import.java",
+                "keyword.other.important.css",
                 "keyword.other.package.groovy",
                 "keyword.other.package.java",
                 "keyword.other.special-method.dockerfile",
@@ -56,6 +62,8 @@
                 "punctuation.definition.bold.markdown",
                 "punctuation.definition.constant.markdown",
                 "punctuation.definition.italic.markdown",
+                "punctuation.separator.list.comma.css",
+                "punctuation.terminator.rule.css",
                 "storage.modifier.access-control.groovy",
                 "storage.modifier.extends.groovy",
                 "storage.modifier.extends.java",
@@ -101,7 +109,14 @@
         },
         {
             "scope": [
+                "keyword.operator.combinator.css",
+                "keyword.operator.pattern.css",
                 "meta.method.body.java variable.other.definition.java",
+                "punctuation.definition.entity.begin.bracket.square.css",
+                "punctuation.definition.entity.css",
+                "punctuation.definition.entity.end.bracket.square.css",
+                "punctuation.section.function.begin.bracket.round.css",
+                "punctuation.section.function.end.bracket.round.css",
                 "source.groovy.embedded.source"
             ],
             "settings": {
@@ -110,10 +125,12 @@
         },
         {
             "scope": [
+                "constant.numeric.css",
                 "constant.numeric.decimal.java",
                 "constant.numeric.groovy",
                 "constant.numeric.json",
-                "constant.numeric.sql"
+                "constant.numeric.sql",
+                "constant.other.color.rgb-value.hex.css"
             ],
             "settings": {
                 "foreground": "#6897bb"
@@ -121,6 +138,7 @@
         },
         {
             "scope": [
+                "comment.block.css",
                 "comment.block.groovy",
                 "comment.block.java",
                 "comment.block.json.comments",
@@ -202,6 +220,7 @@
                 "constant.other.key.groovy",
                 "markup.quote.markdown",
                 "source.ini",
+                "string.quoted.double.css",
                 "string.quoted.double.dockerfile",
                 "string.quoted.double.groovy",
                 "string.quoted.double.java",
@@ -209,6 +228,7 @@
                 "string.quoted.double.sql",
                 "string.quoted.double.xml",
                 "string.quoted.double.yaml",
+                "string.quoted.single.css",
                 "string.quoted.single.dockerfile",
                 "string.quoted.single.groovy",
                 "string.quoted.single.java",
@@ -231,10 +251,34 @@
                 "meta.link.reference.markdown punctuation.definition.string.end.markdown",
                 "punctuation.definition.link.markdown",
                 "string.other.link.description.markdown",
-                "string.other.link.title.markdown"
+                "string.other.link.title.markdown",
+                "variable.parameter.url.css"
             ],
             "settings": {
                 "foreground": "#287bde"
+            }
+        },
+        {
+            "scope": [
+                "entity.other.attribute-name.id.css punctuation.definition.entity.css",
+                "entity.other.keyframe-offset.css",
+                "entity.other.keyframe-offset.percentage.css",
+                "keyword.operator.logical.and.media.css",
+                "keyword.operator.logical.only.media.css",
+                "meta.property-value.css",
+                "meta.selector.css",
+                "support.constant.media.css"
+            ],
+            "settings": {
+                "foreground": "#e8bf6a"
+            }
+        },
+        {
+            "scope": [
+                "keyword.other.important.css"
+            ],
+            "settings": {
+                "fontStyle": "bold"
             }
         }
     ]
