@@ -61,9 +61,11 @@
                 "keyword.control.switch.js",
                 "keyword.control.throw.java",
                 "keyword.control.try.java",
+                "keyword.control.trycatch.js",
                 "keyword.operator.expression.in.js",
                 "keyword.operator.in.groovy",
                 "keyword.operator.negation.regexp",
+                "keyword.operator.new.js",
                 "keyword.operator.or.regexp",
                 "keyword.other.DDL.create.II.sql",
                 "keyword.other.definition.ini",
@@ -84,6 +86,7 @@
                 "punctuation.terminator.rule.css",
                 "punctuation.terminator.statement.js",
                 "storage.modifier.access-control.groovy",
+                "storage.modifier.async.js",
                 "storage.modifier.extends.groovy",
                 "storage.modifier.extends.java",
                 "storage.modifier.groovy",
@@ -99,7 +102,8 @@
                 "storage.type.primitive.java",
                 "storage.type.sql",
                 "support.type.primitive.js",
-                "variable.language.this.java"
+                "variable.language.this.java",
+                "variable.language.this.js"
             ],
             "settings": {
                 "foreground": "#cc7832"
@@ -114,7 +118,11 @@
                 "markup.heading.setext.2.markdown",
                 "meta.definition.variable.name.groovy",
                 "meta.object-literal.key.js",
+                "support.class.builtin.js",
+                "support.class.console.js",
+                "support.class.promise.js",
                 "support.constant.math.js",
+                "support.type.object.module.js",
                 "support.type.property-name.json",
                 "support.variable.object.process.js",
                 "support.variable.property.js",
@@ -250,6 +258,7 @@
                 "meta.method.identifier.java entity.name.function.java",
                 "punctuation.definition.metadata.markdown",
                 "punctuation.definition.tag.xml",
+                "support.function.js",
                 "variable.other.readwrite.alias.js"
             ],
             "settings": {
@@ -330,6 +339,9 @@
                 "keyword.operator.negation.regexp",
                 "keyword.operator.or.regexp",
                 "keyword.other.important.css",
+                "support.class.builtin.js",
+                "support.class.console.js",
+                "support.class.promise.js",
                 "support.constant.math.js",
                 "support.variable.object.process.js"
             ],
