@@ -30,25 +30,41 @@
     "tokenColors": [
         {
             "scope": [
+                "constant.character.escape.backslash.regexp",
+                "constant.character.escape.js",
+                "constant.language.boolean.false.js",
+                "constant.language.boolean.true.js",
                 "constant.language.groovy",
                 "constant.language.java",
                 "constant.language.json",
+                "constant.language.null.js",
                 "constant.other.reference.link.markdown",
                 "entity.name.tag.wildcard.css",
                 "entity.name.tag.yaml",
+                "keyword.control.anchor.regexp",
                 "keyword.control.assert.groovy",
                 "keyword.control.at-rule.font-face.css",
                 "keyword.control.at-rule.import.css",
                 "keyword.control.at-rule.keyframes.css",
                 "keyword.control.at-rule.media.css",
                 "keyword.control.catch.java",
+                "keyword.control.conditional.js",
+                "keyword.control.export.js",
+                "keyword.control.flow.js",
+                "keyword.control.from.js",
                 "keyword.control.groovy",
+                "keyword.control.import.js",
                 "keyword.control.java",
+                "keyword.control.loop.js",
                 "keyword.control.new.groovy",
                 "keyword.control.new.java",
+                "keyword.control.switch.js",
                 "keyword.control.throw.java",
                 "keyword.control.try.java",
+                "keyword.operator.expression.in.js",
                 "keyword.operator.in.groovy",
+                "keyword.operator.negation.regexp",
+                "keyword.operator.or.regexp",
                 "keyword.other.DDL.create.II.sql",
                 "keyword.other.definition.ini",
                 "keyword.other.import.groovy",
@@ -62,8 +78,11 @@
                 "punctuation.definition.bold.markdown",
                 "punctuation.definition.constant.markdown",
                 "punctuation.definition.italic.markdown",
+                "punctuation.separator.comma.js",
                 "punctuation.separator.list.comma.css",
+                "punctuation.separator.parameter.js",
                 "punctuation.terminator.rule.css",
+                "punctuation.terminator.statement.js",
                 "storage.modifier.access-control.groovy",
                 "storage.modifier.extends.groovy",
                 "storage.modifier.extends.java",
@@ -73,10 +92,13 @@
                 "storage.modifier.sql",
                 "storage.modifier.static.groovy",
                 "storage.type.def.groovy",
+                "storage.type.function.js",
+                "storage.type.js",
                 "storage.type.primitive.array.java",
                 "storage.type.primitive.groovy",
                 "storage.type.primitive.java",
                 "storage.type.sql",
+                "support.type.primitive.js",
                 "variable.language.this.java"
             ],
             "settings": {
@@ -85,15 +107,22 @@
         },
         {
             "scope": [
+                "constant.language.undefined.js",
                 "constant.other.enum.java",
                 "markup.heading.markdown",
                 "markup.heading.setext.1.markdown",
                 "markup.heading.setext.2.markdown",
                 "meta.definition.variable.name.groovy",
+                "meta.object-literal.key.js",
+                "support.constant.math.js",
                 "support.type.property-name.json",
+                "support.variable.object.process.js",
+                "support.variable.property.js",
+                "support.variable.property.process.js",
                 "variable.other.definition.java",
                 "variable.other.object.property.java",
-                "variable.other.property.java"
+                "variable.other.property.java",
+                "variable.other.property.js"
             ],
             "settings": {
                 "foreground": "#9876aa"
@@ -112,11 +141,13 @@
                 "keyword.operator.combinator.css",
                 "keyword.operator.pattern.css",
                 "meta.method.body.java variable.other.definition.java",
+                "meta.template.expression.js",
                 "punctuation.definition.entity.begin.bracket.square.css",
                 "punctuation.definition.entity.css",
                 "punctuation.definition.entity.end.bracket.square.css",
                 "punctuation.section.function.begin.bracket.round.css",
                 "punctuation.section.function.end.bracket.round.css",
+                "punctuation.separator.key-value.js",
                 "source.groovy.embedded.source"
             ],
             "settings": {
@@ -127,10 +158,15 @@
             "scope": [
                 "constant.numeric.css",
                 "constant.numeric.decimal.java",
+                "constant.numeric.decimal.js",
                 "constant.numeric.groovy",
+                "constant.numeric.hex.js",
                 "constant.numeric.json",
                 "constant.numeric.sql",
-                "constant.other.color.rgb-value.hex.css"
+                "constant.other.color.rgb-value.hex.css",
+                "keyword.operator.quantifier.regexp",
+                "string.regexp.js punctuation.definition.string.begin.js",
+                "string.regexp.js punctuation.definition.string.end.js"
             ],
             "settings": {
                 "foreground": "#6897bb"
@@ -141,6 +177,7 @@
                 "comment.block.css",
                 "comment.block.groovy",
                 "comment.block.java",
+                "comment.block.js",
                 "comment.block.json.comments",
                 "comment.block.xml",
                 "comment.line.double-slash.groovy",
@@ -160,6 +197,7 @@
         },
         {
             "scope": [
+                "comment.block.documentation.js",
                 "comment.block.documentation.json.comments",
                 "comment.block.javadoc.java"
             ],
@@ -204,12 +242,15 @@
         },
         {
             "scope": [
+                "constant.other.character-class.regexp",
+                "entity.name.function.js",
                 "entity.name.tag.localname.xml",
                 "markup.underline.link.image.markdown",
                 "markup.underline.link.markdown",
                 "meta.method.identifier.java entity.name.function.java",
                 "punctuation.definition.metadata.markdown",
-                "punctuation.definition.tag.xml"
+                "punctuation.definition.tag.xml",
+                "variable.other.readwrite.alias.js"
             ],
             "settings": {
                 "foreground": "#ffc66d"
@@ -217,6 +258,7 @@
         },
         {
             "scope": [
+                "constant.other.character-class.set.regexp",
                 "constant.other.key.groovy",
                 "markup.quote.markdown",
                 "source.ini",
@@ -224,6 +266,7 @@
                 "string.quoted.double.dockerfile",
                 "string.quoted.double.groovy",
                 "string.quoted.double.java",
+                "string.quoted.double.js",
                 "string.quoted.double.json",
                 "string.quoted.double.sql",
                 "string.quoted.double.xml",
@@ -232,9 +275,12 @@
                 "string.quoted.single.dockerfile",
                 "string.quoted.single.groovy",
                 "string.quoted.single.java",
+                "string.quoted.single.js",
                 "string.quoted.single.sql",
                 "string.quoted.single.xml",
-                "string.quoted.single.yaml"
+                "string.quoted.single.yaml",
+                "string.regexp.js",
+                "string.template.js"
             ],
             "settings": {
                 "foreground": "#6a8759"
@@ -267,6 +313,8 @@
                 "keyword.operator.logical.only.media.css",
                 "meta.property-value.css",
                 "meta.selector.css",
+                "punctuation.definition.character-class.regexp",
+                "punctuation.definition.group.regexp",
                 "support.constant.media.css"
             ],
             "settings": {
@@ -275,7 +323,15 @@
         },
         {
             "scope": [
-                "keyword.other.important.css"
+                "constant.character.escape.backslash.regexp",
+                "constant.language.undefined.js",
+                "constant.other.character-class.regexp",
+                "keyword.control.anchor.regexp",
+                "keyword.operator.negation.regexp",
+                "keyword.operator.or.regexp",
+                "keyword.other.important.css",
+                "support.constant.math.js",
+                "support.variable.object.process.js"
             ],
             "settings": {
                 "fontStyle": "bold"
