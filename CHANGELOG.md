@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.7.0]
+- Enable semantic highlighting
+- Add color for Java fields (semantic)
+
 ## [1.6.1]
 - Add license
 

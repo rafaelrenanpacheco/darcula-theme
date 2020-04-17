@@ -1,6 +1,7 @@
 {
     "name": "Darcula (IntelliJ)",
     "type": "dark",
+    "semanticHighlighting": true,
     "colors": {
         "activityBar.background": "#ffffff1a",
         "activityBarBadge.background": "#007acc",
@@ -415,5 +416,10 @@
                 "fontStyle": "bold"
             }
         }
-    ]
+    ],
+    "semanticTokenColors": {
+        "variable:java": {
+            "foreground": "#9876aa"
+        }
+    }
 }
