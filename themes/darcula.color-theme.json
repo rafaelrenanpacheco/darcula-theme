@@ -89,6 +89,7 @@
                 "keyword.operator.expression.in.ts",
                 "keyword.operator.expression.instanceof.ts",
                 "keyword.operator.in.groovy",
+                "keyword.operator.logical.python",
                 "keyword.operator.negation.regexp",
                 "keyword.operator.new.js",
                 "keyword.operator.new.ts",
