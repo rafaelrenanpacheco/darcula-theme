@@ -34,8 +34,10 @@
             "scope": [
                 "constant.character.escape.backslash.regexp",
                 "constant.character.escape.js",
+                "constant.character.escape.python",
                 "constant.character.escape.ts",
                 "constant.character.escape.tsx",
+                "constant.character.format.placeholder.other.python",
                 "constant.language.boolean.false.js",
                 "constant.language.boolean.false.ts",
                 "constant.language.boolean.false.tsx",
@@ -48,6 +50,7 @@
                 "constant.language.null.js",
                 "constant.language.null.ts",
                 "constant.language.null.tsx",
+                "constant.language.python",
                 "constant.language.undefined.js",
                 "constant.language.undefined.ts",
                 "constant.language.undefined.tsx",
@@ -72,6 +75,7 @@
                 "keyword.control.export.ts",
                 "keyword.control.export.tsx",
                 "keyword.control.flow.js",
+                "keyword.control.flow.python",
                 "keyword.control.flow.ts",
                 "keyword.control.flow.tsx",
                 "keyword.control.from.js",
@@ -79,6 +83,7 @@
                 "keyword.control.from.tsx",
                 "keyword.control.groovy",
                 "keyword.control.import.js",
+                "keyword.control.import.python",
                 "keyword.control.import.ts",
                 "keyword.control.import.tsx",
                 "keyword.control.java",
@@ -101,6 +106,7 @@
                 "keyword.operator.expression.instanceof.ts",
                 "keyword.operator.expression.instanceof.tsx",
                 "keyword.operator.in.groovy",
+                "keyword.operator.logical.python",
                 "keyword.operator.negation.regexp",
                 "keyword.operator.new.js",
                 "keyword.operator.new.ts",
@@ -121,11 +127,13 @@
                 "punctuation.definition.italic.markdown",
                 "punctuation.section.embedded.begin.tsx",
                 "punctuation.section.embedded.end.tsx",
+                "punctuation.separator.arguments.python",
                 "punctuation.separator.comma.js",
                 "punctuation.separator.comma.ts",
                 "punctuation.separator.comma.tsx",
                 "punctuation.separator.list.comma.css",
                 "punctuation.separator.parameter.js",
+                "punctuation.separator.parameters.python",
                 "punctuation.separator.parameter.ts",
                 "punctuation.separator.parameter.tsx",
                 "punctuation.terminator.rule.css",
@@ -146,8 +154,11 @@
                 "storage.modifier.ts",
                 "storage.modifier.tsx",
                 "storage.type.class.tsx",
+                "storage.type.class.python",
                 "storage.type.def.groovy",
+                "storage.type.format.python",
                 "storage.type.function.js",
+                "storage.type.function.python",
                 "storage.type.function.ts",
                 "storage.type.function.tsx",
                 "storage.type.js",
@@ -207,12 +218,14 @@
                 "support.variable.property.process.js",
                 "support.variable.property.process.ts",
                 "support.variable.property.process.tsx",
+                "variable.language.special.self.python",
                 "variable.other.definition.java",
                 "variable.other.object.property.java",
                 "variable.other.property.java",
                 "variable.other.property.js",
                 "variable.other.property.ts",
-                "variable.other.property.tsx"
+                "variable.other.property.tsx",
+                "variable.parameter.function.language.special.self.python"
             ],
             "settings": {
                 "foreground": "#9876aa"
@@ -251,6 +264,7 @@
                 "constant.numeric.css",
                 "constant.numeric.decimal.java",
                 "constant.numeric.decimal.js",
+                "constant.numeric.dec.python",
                 "constant.numeric.decimal.ts",
                 "constant.numeric.decimal.tsx",
                 "constant.numeric.groovy",
@@ -289,6 +303,7 @@
                 "comment.line.double-slash.ts",
                 "comment.line.double-slash.tsx",
                 "comment.line.number-sign.dockerfile",
+                "comment.line.number-sign.python",
                 "markup.fenced_code.block.markdown",
                 "markup.inline.raw.string.markdown",
                 "markup.raw.block.markdown",
@@ -331,6 +346,8 @@
         },
         {
             "scope": [
+                "entity.name.function.decorator.python",
+                "meta.function.decorator.python support.type.python",
                 "punctuation.definition.annotation.java",
                 "storage.type.annotation.groovy",
                 "storage.type.annotation.java"
@@ -351,6 +368,7 @@
             "scope": [
                 "constant.other.character-class.regexp",
                 "entity.name.function.js",
+                "entity.name.function.python",
                 "entity.name.function.ts",
                 "entity.name.function.tsx",
                 "entity.name.tag.localname.xml",
@@ -377,6 +395,8 @@
                 "constant.other.key.groovy",
                 "markup.quote.markdown",
                 "source.ini",
+                "storage.type.string.python",
+                "string.quoted.docstring.multi.python",
                 "string.quoted.double.css",
                 "string.quoted.double.dockerfile",
                 "string.quoted.double.groovy",
@@ -395,6 +415,7 @@
                 "string.quoted.single.html",
                 "string.quoted.single.java",
                 "string.quoted.single.js",
+                "string.quoted.single.python",
                 "string.quoted.single.sql",
                 "string.quoted.single.ts",
                 "string.quoted.single.tsx",
@@ -455,6 +476,46 @@
         },
         {
             "scope": [
+                "support.function.magic.python",
+                "support.variable.magic.python"
+            ],
+            "settings": {
+                "foreground": "#B200B2"
+            }
+        },
+        {
+            "scope": [
+                "support.type.python",
+                "support.function.builtin.python"
+            ],
+            "settings": {
+                "foreground": "#8888C6"
+            }
+        },
+        {
+            "scope": "variable.parameter.function-call.python",
+            "settings": {
+                "foreground": "#AA4926"
+            }
+        },
+        {
+            "scope": [
+                "string.quoted.binary.single.python",
+                "string.quoted.binary.single.python storage.type.string.python"
+            ],
+            "settings": {
+                "foreground": "#A5C261"
+            }
+        },
+        {
+            "scope": "keyword.codetag.notation.python",
+            "settings": {
+                "foreground": "#A8C023",
+                "fontStyle": "italic",
+            }
+        },
+        {
+            "scope": [
                 "constant.character.escape.backslash.regexp",
                 "constant.other.character-class.regexp",
                 "keyword.control.anchor.regexp",
@@ -480,7 +541,13 @@
             "settings": {
                 "fontStyle": "bold"
             }
-        }
+        },
+        {
+            "scope": "string.quoted.docstring.multi.python",
+            "settings": {
+                "fontStyle": "italic"
+            }
+        },
     ],
     "semanticTokenColors": {
         "variable:java": {
