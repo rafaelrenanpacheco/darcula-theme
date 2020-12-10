@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.9.0]
+- Add support for TSX (React JSX)
+
+## [1.8.0]
+- Add support for Python
+
 ## [1.7.0]
 - Enable semantic highlighting
 - Add color for Java fields (semantic)
