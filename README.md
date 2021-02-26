@@ -8,6 +8,7 @@ Darcula theme for [Visual Studio Code](https://code.visualstudio.com) based on [
 * Python
 * React TSX
 * Groovy
+* Rust
 * HTML
 * CSS
 * JSON
@@ -17,6 +18,7 @@ Darcula theme for [Visual Studio Code](https://code.visualstudio.com) based on [
 * Dockerfile
 * Markdown
 * Properties
+* TOML
 
 ## Screenshots
 ![Java-Entity](screenshots/java-entity.png)
