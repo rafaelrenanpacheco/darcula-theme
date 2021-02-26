@@ -57,6 +57,8 @@
                 "constant.other.reference.link.markdown",
                 "entity.name.tag.wildcard.css",
                 "entity.name.tag.yaml",
+                "entity.name.type.numeric.rust",
+                "entity.other.attribute-name.table.toml",
                 "keyword.control.anchor.regexp",
                 "keyword.control.as.ts",
                 "keyword.control.as.tsx",
@@ -100,6 +102,7 @@
                 "keyword.control.trycatch.js",
                 "keyword.control.trycatch.ts",
                 "keyword.control.trycatch.tsx",
+                "keyword.key.toml",
                 "keyword.operator.expression.in.js",
                 "keyword.operator.expression.in.ts",
                 "keyword.operator.expression.in.tsx",
@@ -119,14 +122,17 @@
                 "keyword.other.important.css",
                 "keyword.other.package.groovy",
                 "keyword.other.package.java",
+                "keyword.other.rust",
                 "keyword.other.special-method.dockerfile",
                 "keyword.other.sql",
                 "meta.link.reference.markdown",
+                "punctuation.comma.rust",
                 "punctuation.definition.bold.markdown",
                 "punctuation.definition.constant.markdown",
                 "punctuation.definition.italic.markdown",
                 "punctuation.section.embedded.begin.tsx",
                 "punctuation.section.embedded.end.tsx",
+                "punctuation.semi.rust",
                 "punctuation.separator.arguments.python",
                 "punctuation.separator.comma.js",
                 "punctuation.separator.comma.ts",
@@ -189,6 +195,7 @@
         },
         {
             "scope": [
+                "constant.other.caps.rust",
                 "constant.other.enum.java",
                 "markup.heading.markdown",
                 "markup.heading.setext.1.markdown",
@@ -265,12 +272,15 @@
                 "constant.numeric.decimal.java",
                 "constant.numeric.decimal.js",
                 "constant.numeric.dec.python",
+                "constant.numeric.decimal.rust",
                 "constant.numeric.decimal.ts",
                 "constant.numeric.decimal.tsx",
+                "constant.numeric.float.toml",
                 "constant.numeric.groovy",
                 "constant.numeric.hex.js",
                 "constant.numeric.hex.ts",
                 "constant.numeric.hex.tsx",
+                "constant.numeric.integer.toml",
                 "constant.numeric.json",
                 "constant.numeric.sql",
                 "constant.other.color.rgb-value.hex.css",
@@ -294,16 +304,19 @@
                 "comment.block.java",
                 "comment.block.js",
                 "comment.block.json.comments",
+                "comment.block.rust",
                 "comment.block.ts",
                 "comment.block.tsx",
                 "comment.block.xml",
                 "comment.line.double-slash.groovy",
                 "comment.line.double-slash.java",
                 "comment.line.double-slash.js",
+                "comment.line.double-slash.rust",
                 "comment.line.double-slash.ts",
                 "comment.line.double-slash.tsx",
                 "comment.line.number-sign.dockerfile",
                 "comment.line.number-sign.python",
+                "comment.line.number-sign.toml",
                 "markup.fenced_code.block.markdown",
                 "markup.inline.raw.string.markdown",
                 "markup.raw.block.markdown",
@@ -321,7 +334,8 @@
                 "comment.block.documentation.json.comments",
                 "comment.block.documentation.ts",
                 "comment.block.documentation.tsx",
-                "comment.block.javadoc.java"
+                "comment.block.javadoc.java",
+                "comment.line.documentation.rust"
             ],
             "settings": {
                 "foreground": "#629755",
@@ -347,8 +361,10 @@
         {
             "scope": [
                 "entity.name.function.decorator.python",
+                "meta.attribute.rust",
                 "meta.function.decorator.python support.type.python",
                 "punctuation.definition.annotation.java",
+                "punctuation.definition.attribute.rust",
                 "storage.type.annotation.groovy",
                 "storage.type.annotation.java"
             ],
@@ -369,6 +385,7 @@
                 "constant.other.character-class.regexp",
                 "entity.name.function.js",
                 "entity.name.function.python",
+                "entity.name.function.rust",
                 "entity.name.function.ts",
                 "entity.name.function.tsx",
                 "entity.name.tag.localname.xml",
@@ -404,11 +421,14 @@
                 "string.quoted.double.java",
                 "string.quoted.double.js",
                 "string.quoted.double.json",
+                "string.quoted.double.rust",
                 "string.quoted.double.sql",
                 "string.quoted.double.ts",
                 "string.quoted.double.tsx",
                 "string.quoted.double.xml",
                 "string.quoted.double.yaml",
+                "string.quoted.single.basic.line.toml",
+                "string.quoted.single.char.rust",
                 "string.quoted.single.css",
                 "string.quoted.single.dockerfile",
                 "string.quoted.single.groovy",
@@ -548,10 +568,27 @@
                 "fontStyle": "italic"
             }
         },
+        {
+            "scope": [
+                "entity.name.function.macro.rust"
+            ],
+            "settings": {
+                "foreground": "#55a3d1"
+            }
+        }
     ],
     "semanticTokenColors": {
         "variable:java": {
             "foreground": "#9876aa"
-        }
+        },
+        "enumMember:rust": {
+            "foreground": "#9876aa"
+        },
+        "property:rust": {
+            "foreground": "#9876aa"
+        },
+        "typeParameter:rust": {
+            "foreground": "#199187"       
+        }        
     }
 }
