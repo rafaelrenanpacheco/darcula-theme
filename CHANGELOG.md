@@ -1,5 +1,8 @@
 # Change Log
 
+## [1.10.0]
+- Add support for Rust and TOML
+
 ## [1.9.0]
 - Add support for TSX (React JSX with TS)
 
