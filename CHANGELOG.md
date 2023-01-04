@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.10.1]
+- Java - Fixed property and variable color
+- Java - Fixed enum color and style
+
 ## [1.10.0]
 - Add support for Rust and TOML
 
