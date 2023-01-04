@@ -578,7 +578,7 @@
         }
     ],
     "semanticTokenColors": {
-        "variable:java": {
+        "property:java": {
             "foreground": "#9876aa"
         },
         "enumMember:rust": {
