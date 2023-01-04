@@ -581,6 +581,10 @@
         "property:java": {
             "foreground": "#9876aa"
         },
+        "enumMember:java": {
+          "fontStyle": "italic",
+          "foreground": "#9876aa"
+        },
         "enumMember:rust": {
             "foreground": "#9876aa"
         },
