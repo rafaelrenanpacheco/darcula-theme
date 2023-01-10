@@ -1,5 +1,8 @@
 # Change Log
 
+## [1.10.3]
+- Fix published version
+
 ## [1.10.2]
 - Java - Fixed static property and static method style
 - Java - Fixed error foreground color
