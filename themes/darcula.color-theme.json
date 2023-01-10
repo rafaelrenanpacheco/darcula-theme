@@ -581,6 +581,15 @@
         "property:java": {
             "foreground": "#9876aa"
         },
+        "property.static:java": {
+            "fontStyle": "italic"
+        },
+        "method.static:java": {
+            "fontStyle": "italic"
+        },
+        "method.static.declaration:java": {
+            "fontStyle": ""
+        },
         "enumMember:java": {
           "fontStyle": "italic",
           "foreground": "#9876aa"
