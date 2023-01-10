@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.10.2]
+- Java - Fixed static property and static method style
+- Java - Fixed error foreground color
+
 ## [1.10.1]
 - Java - Fixed property and variable color
 - Java - Fixed enum color and style
