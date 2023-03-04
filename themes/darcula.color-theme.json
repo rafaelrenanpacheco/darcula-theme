@@ -533,6 +533,7 @@
                 "punctuation.definition.interpolation.end.bracket.curly.scss",
                 "entity.other.attribute-name.pseudo-element.css", // Added for scss but also applies to css.
                 "entity.other.attribute-name.pseudo-class.css", // Added for scss but also applies to css.
+                "entity.other.attribute-name.parent-selector-suffix.css punctuation.definition.entity.css",
                 "entity.name.function.scss",
                 "punctuation.definition.character-class.regexp",
                 "punctuation.definition.group.regexp",
