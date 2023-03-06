@@ -284,7 +284,7 @@
                 "meta.template.expression.tsx",
                 "punctuation.definition.entity.begin.bracket.square.css",
                 "punctuation.definition.attribute-selector.begin.bracket.square.scss",
-                "punctuation.definition.entity.css", // Used for css and scss.
+                "punctuation.definition.entity.css",
                 "punctuation.definition.entity.end.bracket.square.css",
                 "punctuation.definition.attribute-selector.end.bracket.square.scss",
                 "punctuation.section.function.begin.bracket.round.css",
@@ -301,7 +301,7 @@
         },
         {
             "scope": [
-                "constant.numeric.css", // Used for css and scss.
+                "constant.numeric.css",
                 "constant.numeric.decimal.java",
                 "constant.numeric.decimal.js",
                 "constant.numeric.dec.python",
@@ -316,7 +316,7 @@
                 "constant.numeric.integer.toml",
                 "constant.numeric.json",
                 "constant.numeric.sql",
-                "constant.other.color.rgb-value.hex.css", // Used for css and scss.
+                "constant.other.color.rgb-value.hex.css",
                 "keyword.operator.quantifier.regexp",
                 "string.regexp.js punctuation.definition.string.begin.js",
                 "string.regexp.ts punctuation.definition.string.begin.ts",
@@ -513,7 +513,7 @@
             "scope": [
                 "entity.name.tag.html",
                 "entity.name.tag.tsx",
-                "entity.other.attribute-name.id.css punctuation.definition.entity.css", // Used for css and scss.
+                "entity.other.attribute-name.id.css punctuation.definition.entity.css",
                 "entity.other.keyframe-offset.css",
                 "entity.other.keyframe-offset.percentage.css",
                 "meta.at-rule.keyframes.scss entity.other.attribute-name.scss",
@@ -524,15 +524,15 @@
                 "meta.property-value.css",
                 "meta.property-value.scss",
                 "meta.selector.css",
-                "entity.other.attribute-name.class.css", // Added for scss but also applies to css.
-                "entity.name.tag.css", // Added for scss but also applies to css.
+                "entity.other.attribute-name.class.css",
+                "entity.name.tag.css",
                 "entity.name.tag.reference.scss",
-                "entity.other.attribute-name.id.css", // Added for scss but also applies to css.
+                "entity.other.attribute-name.id.css",
                 "support.function.misc.scss",
                 "punctuation.definition.interpolation.begin.bracket.curly.scss",
                 "punctuation.definition.interpolation.end.bracket.curly.scss",
-                "entity.other.attribute-name.pseudo-element.css", // Added for scss but also applies to css.
-                "entity.other.attribute-name.pseudo-class.css", // Added for scss but also applies to css.
+                "entity.other.attribute-name.pseudo-element.css",
+                "entity.other.attribute-name.pseudo-class.css",
                 "entity.other.attribute-name.parent-selector-suffix.css punctuation.definition.entity.css",
                 "entity.name.function.scss",
                 "punctuation.definition.character-class.regexp",
@@ -541,7 +541,7 @@
                 "punctuation.definition.tag.begin.tsx",
                 "punctuation.definition.tag.end.html",
                 "punctuation.definition.tag.end.tsx",
-                "support.constant.media.css" // Used for css and scss.
+                "support.constant.media.css"
             ],
             "settings": {
                 "foreground": "#e8bf6a"
