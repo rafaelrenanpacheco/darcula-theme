@@ -49,7 +49,7 @@ It's very easy to make contributions for this project. You can follow the [offic
 * Try to keep them sorted in ascending order: `ctrl + shit + p` + `Sort Lines Ascending`.
 * Submit a PR.
 
-In order to identify the `scope` of a token, first go to your file that you are using as reference. Then press `ctrl + shit + p`, search and execute `Developer: Inspect Editor Tokens and Scopes`. Now click on the token that you wish to customize and the inspector will show you the scopes related to that token.
+In order to identify the `scope` of a token, first go to the file that you are using as reference. Then press `ctrl + shit + p`, search and execute `Developer: Inspect Editor Tokens and Scopes`. Now click on the token that you wish to customize and the inspector will show you the scopes related to that token.
 
 ## Credits
 * The editor colors were based on [rokoroku/vscode-theme-darcula](https://github.com/rokoroku/vscode-theme-darcula) theme, and changed a little in order to become more like IntelliJ's.
