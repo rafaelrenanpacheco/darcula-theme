@@ -1,5 +1,8 @@
 # Change Log
 
+## [1.11.0]
+- Add support for SCSS
+
 ## [1.10.3]
 - Fix published version
 

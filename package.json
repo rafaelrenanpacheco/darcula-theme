@@ -1,39 +1,39 @@
 {
-    "name": "darcula-theme",
-    "displayName": "Darcula Theme",
-    "description": "Darcula theme based on IntelliJ IDEA - Supports Java, JavaScript, TypeScript and more",
-    "version": "1.10.3",
-    "license": "MIT",
-    "publisher": "rafaelrenanpacheco",
-    "author": {
-        "name": "Rafael Renan Pacheco"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/rafaelrenanpacheco/darcula-theme"
-    },
-    "homepage": "https://github.com/rafaelrenanpacheco/darcula-theme/blob/master/README.md",
-    "keywords": [
-        "theme",
-        "darcula",
-        "intellij",
-        "java",
-        "javascript"
-    ],
-    "engines": {
-        "vscode": "^1.43.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "icon": "icon.png",
-    "contributes": {
-        "themes": [
-            {
-                "label": "Darcula (IntelliJ)",
-                "uiTheme": "vs-dark",
-                "path": "./themes/darcula.color-theme.json"
-            }
-        ]
-    }
+  "name": "darcula-theme",
+  "displayName": "Darcula Theme",
+  "description": "Darcula theme based on IntelliJ IDEA - Supports Java, JavaScript, TypeScript and more",
+  "version": "1.11.0",
+  "license": "MIT",
+  "publisher": "rafaelrenanpacheco",
+  "author": {
+    "name": "Rafael Renan Pacheco"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rafaelrenanpacheco/darcula-theme"
+  },
+  "homepage": "https://github.com/rafaelrenanpacheco/darcula-theme/blob/master/README.md",
+  "keywords": [
+    "theme",
+    "darcula",
+    "intellij",
+    "java",
+    "javascript"
+  ],
+  "engines": {
+    "vscode": "^1.43.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "icon.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Darcula (IntelliJ)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/darcula.color-theme.json"
+      }
+    ]
+  }
 }

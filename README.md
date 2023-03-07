@@ -10,7 +10,7 @@ Darcula theme for [Visual Studio Code](https://code.visualstudio.com) based on [
 * Groovy
 * Rust
 * HTML
-* CSS
+* CSS / SCSS
 * JSON
 * SQL
 * XML
@@ -46,6 +46,7 @@ It's very easy to make contributions for this project. You can follow the [offic
 * Open a folder or a file to preview the changes you will make.
 * Open the `themes/darcula.color-theme.json` where you can see the many `tokenColors` rules.
 * Add new rules to improve this theme.
+* Try to keep them sorted in ascending order: `ctrl + shit + p` + `Sort Lines Ascending`.
 * Submit a PR.
 
 In order to identify the `scope` of a token, first go to your file that you are using as reference. Then press `ctrl + shit + p`, search and execute `Developer: Inspect Editor Tokens and Scopes`. Now click on the token that you wish to customize and the inspector will show you the scopes related to that token.

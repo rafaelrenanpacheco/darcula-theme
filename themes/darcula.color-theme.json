@@ -1,661 +1,661 @@
 {
-    "name": "Darcula (IntelliJ)",
-    "type": "dark",
-    "semanticHighlighting": true,
-    "colors": {
-        "activityBar.background": "#ffffff1a",
-        "activityBarBadge.background": "#007acc",
-        "badge.background": "#ffffff1a",
-        "editor.background": "#2b2b2b",
-        "editor.foreground": "#a9b7c6",
-        "editor.lineHighlightBackground": "#ffffff0b",
-        "editor.selectionBackground": "#204182cc",
-        "editorError.foreground": "#973A38",
-        "editorInfo.foreground": "#6a8759",
-        "editorGutter.background": "#ffffff0b",
-        "editorSuggestWidget.background": "#303030",
-        "editorSuggestWidget.highlightForeground": "#cc6e2f",
-        "editorSuggestWidget.selectedBackground": "#204182cc",
-        "focusBorder": "#ffffff00",
-        "list.hoverBackground": "#ffffff0b",
-        "sideBar.background": "#2b2b2b",
-        "sideBar.border": "#ffffff1a",
-        "statusBar.background": "#ffffff1a",
-        "statusBar.noFolderBackground": "#ffffff1a",
-        "statusBar.foreground": "#cccccc",
-        "tab.activeBackground": "#ffffff1a",
-        "tab.activeBorder": "#0c7d9d",
-        "tab.inactiveBackground": "#ffffff0b",
-        "titleBar.activeBackground": "#ffffff1a",
-        "titleBar.activeForeground": "#cccccc",
-        "titleBar.inactiveBackground": "#ffffff10"
+  "name": "Darcula (IntelliJ)",
+  "type": "dark",
+  "semanticHighlighting": true,
+  "colors": {
+    "activityBar.background": "#ffffff1a",
+    "activityBarBadge.background": "#007acc",
+    "badge.background": "#ffffff1a",
+    "editor.background": "#2b2b2b",
+    "editor.foreground": "#a9b7c6",
+    "editor.lineHighlightBackground": "#ffffff0b",
+    "editor.selectionBackground": "#204182cc",
+    "editorError.foreground": "#973A38",
+    "editorGutter.background": "#ffffff0b",
+    "editorInfo.foreground": "#6a8759",
+    "editorSuggestWidget.background": "#303030",
+    "editorSuggestWidget.highlightForeground": "#cc6e2f",
+    "editorSuggestWidget.selectedBackground": "#204182cc",
+    "focusBorder": "#ffffff00",
+    "list.hoverBackground": "#ffffff0b",
+    "sideBar.background": "#2b2b2b",
+    "sideBar.border": "#ffffff1a",
+    "statusBar.background": "#ffffff1a",
+    "statusBar.foreground": "#cccccc",
+    "statusBar.noFolderBackground": "#ffffff1a",
+    "tab.activeBackground": "#ffffff1a",
+    "tab.activeBorder": "#0c7d9d",
+    "tab.inactiveBackground": "#ffffff0b",
+    "titleBar.activeBackground": "#ffffff1a",
+    "titleBar.activeForeground": "#cccccc",
+    "titleBar.inactiveBackground": "#ffffff10"
+  },
+  "tokenColors": [
+    {
+      "scope": [
+        "constant.character.escape.backslash.regexp",
+        "constant.character.escape.js",
+        "constant.character.escape.python",
+        "constant.character.escape.ts",
+        "constant.character.escape.tsx",
+        "constant.character.format.placeholder.other.python",
+        "constant.language.boolean.false.js",
+        "constant.language.boolean.false.ts",
+        "constant.language.boolean.false.tsx",
+        "constant.language.boolean.true.js",
+        "constant.language.boolean.true.ts",
+        "constant.language.boolean.true.tsx",
+        "constant.language.groovy",
+        "constant.language.java",
+        "constant.language.json",
+        "constant.language.null.js",
+        "constant.language.null.ts",
+        "constant.language.null.tsx",
+        "constant.language.python",
+        "constant.language.undefined.js",
+        "constant.language.undefined.ts",
+        "constant.language.undefined.tsx",
+        "constant.other.reference.link.markdown",
+        "entity.name.tag.wildcard.css",
+        "entity.name.tag.wildcard.scss",
+        "entity.name.tag.yaml",
+        "entity.name.type.numeric.rust",
+        "entity.other.attribute-name.table.toml",
+        "keyword.control.anchor.regexp",
+        "keyword.control.as.ts",
+        "keyword.control.as.tsx",
+        "keyword.control.assert.groovy",
+        "keyword.control.at-rule.at-root.scss",
+        "keyword.control.at-rule.extend.scss",
+        "keyword.control.at-rule.font-face.css",
+        "keyword.control.at-rule.fontface.scss",
+        "keyword.control.at-rule.forward.scss",
+        "keyword.control.at-rule.function.scss",
+        "keyword.control.at-rule.import.css",
+        "keyword.control.at-rule.import.scss",
+        "keyword.control.at-rule.include.scss",
+        "keyword.control.at-rule.keyframes.css",
+        "keyword.control.at-rule.keyframes.scss",
+        "keyword.control.at-rule.media.css",
+        "keyword.control.at-rule.media.scss",
+        "keyword.control.at-rule.mixin.scss",
+        "keyword.control.at-rule.supports.scss",
+        "keyword.control.at-rule.use.scss",
+        "keyword.control.catch.java",
+        "keyword.control.conditional.js",
+        "keyword.control.conditional.ts",
+        "keyword.control.conditional.tsx",
+        "keyword.control.content.scss",
+        "keyword.control.default.ts",
+        "keyword.control.default.tsx",
+        "keyword.control.each.scss",
+        "keyword.control.else.scss",
+        "keyword.control.export.js",
+        "keyword.control.export.ts",
+        "keyword.control.export.tsx",
+        "keyword.control.flow.js",
+        "keyword.control.flow.python",
+        "keyword.control.flow.ts",
+        "keyword.control.flow.tsx",
+        "keyword.control.for.scss",
+        "keyword.control.from.js",
+        "keyword.control.from.ts",
+        "keyword.control.from.tsx",
+        "keyword.control.groovy",
+        "keyword.control.if.scss",
+        "keyword.control.import.js",
+        "keyword.control.import.python",
+        "keyword.control.import.ts",
+        "keyword.control.import.tsx",
+        "keyword.control.java",
+        "keyword.control.loop.js",
+        "keyword.control.loop.ts",
+        "keyword.control.loop.tsx",
+        "keyword.control.new.groovy",
+        "keyword.control.new.java",
+        "keyword.control.return.scss",
+        "keyword.control.switch.js",
+        "keyword.control.switch.ts",
+        "keyword.control.switch.tsx",
+        "keyword.control.throw.java",
+        "keyword.control.try.java",
+        "keyword.control.trycatch.js",
+        "keyword.control.trycatch.ts",
+        "keyword.control.trycatch.tsx",
+        "keyword.control.warn.scss",
+        "keyword.control.while.scss",
+        "keyword.key.toml",
+        "keyword.operator.expression.in.js",
+        "keyword.operator.expression.in.ts",
+        "keyword.operator.expression.in.tsx",
+        "keyword.operator.expression.instanceof.ts",
+        "keyword.operator.expression.instanceof.tsx",
+        "keyword.operator.in.groovy",
+        "keyword.operator.logical.python",
+        "keyword.operator.negation.regexp",
+        "keyword.operator.new.js",
+        "keyword.operator.new.ts",
+        "keyword.operator.new.tsx",
+        "keyword.operator.or.regexp",
+        "keyword.other.DDL.create.II.sql",
+        "keyword.other.definition.ini",
+        "keyword.other.import.groovy",
+        "keyword.other.import.java",
+        "keyword.other.important.css",
+        "keyword.other.important.scss",
+        "keyword.other.package.groovy",
+        "keyword.other.package.java",
+        "keyword.other.rust",
+        "keyword.other.special-method.dockerfile",
+        "keyword.other.sql",
+        "meta.at-rule.each.scss keyword.control.operator",
+        "meta.at-rule.for.scss keyword.control.operator",
+        "meta.link.reference.markdown",
+        "punctuation.comma.rust",
+        "punctuation.definition.bold.markdown",
+        "punctuation.definition.constant.markdown",
+        "punctuation.definition.italic.markdown",
+        "punctuation.section.embedded.begin.tsx",
+        "punctuation.section.embedded.end.tsx",
+        "punctuation.semi.rust",
+        "punctuation.separator.arguments.python",
+        "punctuation.separator.comma.js",
+        "punctuation.separator.comma.ts",
+        "punctuation.separator.comma.tsx",
+        "punctuation.separator.list.comma.css",
+        "punctuation.separator.parameter.js",
+        "punctuation.separator.parameter.ts",
+        "punctuation.separator.parameter.tsx",
+        "punctuation.separator.parameters.python",
+        "punctuation.terminator.rule.css",
+        "punctuation.terminator.rule.scss",
+        "punctuation.terminator.statement.js",
+        "punctuation.terminator.statement.ts",
+        "punctuation.terminator.statement.tsx",
+        "storage.modifier.access-control.groovy",
+        "storage.modifier.async.js",
+        "storage.modifier.async.ts",
+        "storage.modifier.async.tsx",
+        "storage.modifier.extends.groovy",
+        "storage.modifier.extends.java",
+        "storage.modifier.groovy",
+        "storage.modifier.implements.java",
+        "storage.modifier.java",
+        "storage.modifier.sql",
+        "storage.modifier.static.groovy",
+        "storage.modifier.ts",
+        "storage.modifier.tsx",
+        "storage.type.class.python",
+        "storage.type.class.tsx",
+        "storage.type.def.groovy",
+        "storage.type.format.python",
+        "storage.type.function.js",
+        "storage.type.function.python",
+        "storage.type.function.ts",
+        "storage.type.function.tsx",
+        "storage.type.js",
+        "storage.type.namespace.ts",
+        "storage.type.namespace.tsx",
+        "storage.type.primitive.array.java",
+        "storage.type.primitive.groovy",
+        "storage.type.primitive.java",
+        "storage.type.sql",
+        "storage.type.ts",
+        "storage.type.tsx",
+        "storage.type.type.ts",
+        "storage.type.type.tsx",
+        "support.type.builtin.ts",
+        "support.type.builtin.tsx",
+        "support.type.primitive.js",
+        "support.type.primitive.ts",
+        "support.type.primitive.tsx",
+        "variable.language.super.tsx",
+        "variable.language.this.java",
+        "variable.language.this.js",
+        "variable.language.this.ts",
+        "variable.language.this.tsx"
+      ],
+      "settings": {
+        "foreground": "#cc7832"
+      }
     },
-    "tokenColors": [
-        {
-            "scope": [
-                "constant.character.escape.backslash.regexp",
-                "constant.character.escape.js",
-                "constant.character.escape.python",
-                "constant.character.escape.ts",
-                "constant.character.escape.tsx",
-                "constant.character.format.placeholder.other.python",
-                "constant.language.boolean.false.js",
-                "constant.language.boolean.false.ts",
-                "constant.language.boolean.false.tsx",
-                "constant.language.boolean.true.js",
-                "constant.language.boolean.true.ts",
-                "constant.language.boolean.true.tsx",
-                "constant.language.groovy",
-                "constant.language.java",
-                "constant.language.json",
-                "constant.language.null.js",
-                "constant.language.null.ts",
-                "constant.language.null.tsx",
-                "constant.language.python",
-                "constant.language.undefined.js",
-                "constant.language.undefined.ts",
-                "constant.language.undefined.tsx",
-                "constant.other.reference.link.markdown",
-                "entity.name.tag.wildcard.css",
-                "entity.name.tag.wildcard.scss",
-                "entity.name.tag.yaml",
-                "entity.name.type.numeric.rust",
-                "entity.other.attribute-name.table.toml",
-                "keyword.control.anchor.regexp",
-                "keyword.control.as.ts",
-                "keyword.control.as.tsx",
-                "keyword.control.assert.groovy",
-                "keyword.control.at-rule.font-face.css",
-                "keyword.control.at-rule.fontface.scss",
-                "keyword.control.at-rule.import.css",
-                "keyword.control.at-rule.import.scss",
-                "keyword.control.at-rule.keyframes.css",
-                "keyword.control.at-rule.keyframes.scss",
-                "keyword.control.at-rule.media.css",
-                "keyword.control.at-rule.media.scss",
-                "keyword.control.at-rule.use.scss",
-                "keyword.control.at-rule.forward.scss",
-                "keyword.control.at-rule.mixin.scss",
-                "keyword.control.at-rule.include.scss",
-                "keyword.control.at-rule.function.scss",
-                "keyword.control.at-rule.at-root.scss",
-                "keyword.control.at-rule.extend.scss",
-                "keyword.control.return.scss",
-                "keyword.control.content.scss",
-                "keyword.control.warn.scss",
-                "keyword.control.at-rule.supports.scss",
-                "keyword.control.for.scss",
-                "meta.at-rule.for.scss keyword.control.operator",
-                "keyword.control.each.scss",
-                "meta.at-rule.each.scss keyword.control.operator",
-                "keyword.control.while.scss",
-                "keyword.control.if.scss",
-                "keyword.control.else.scss",
-                "keyword.control.catch.java",
-                "keyword.control.conditional.js",
-                "keyword.control.conditional.ts",
-                "keyword.control.conditional.tsx",
-                "keyword.control.default.ts",
-                "keyword.control.default.tsx",
-                "keyword.control.export.js",
-                "keyword.control.export.ts",
-                "keyword.control.export.tsx",
-                "keyword.control.flow.js",
-                "keyword.control.flow.python",
-                "keyword.control.flow.ts",
-                "keyword.control.flow.tsx",
-                "keyword.control.from.js",
-                "keyword.control.from.ts",
-                "keyword.control.from.tsx",
-                "keyword.control.groovy",
-                "keyword.control.import.js",
-                "keyword.control.import.python",
-                "keyword.control.import.ts",
-                "keyword.control.import.tsx",
-                "keyword.control.java",
-                "keyword.control.loop.js",
-                "keyword.control.loop.ts",
-                "keyword.control.loop.tsx",
-                "keyword.control.new.groovy",
-                "keyword.control.new.java",
-                "keyword.control.switch.js",
-                "keyword.control.switch.ts",
-                "keyword.control.switch.tsx",
-                "keyword.control.throw.java",
-                "keyword.control.try.java",
-                "keyword.control.trycatch.js",
-                "keyword.control.trycatch.ts",
-                "keyword.control.trycatch.tsx",
-                "keyword.key.toml",
-                "keyword.operator.expression.in.js",
-                "keyword.operator.expression.in.ts",
-                "keyword.operator.expression.in.tsx",
-                "keyword.operator.expression.instanceof.ts",
-                "keyword.operator.expression.instanceof.tsx",
-                "keyword.operator.in.groovy",
-                "keyword.operator.logical.python",
-                "keyword.operator.negation.regexp",
-                "keyword.operator.new.js",
-                "keyword.operator.new.ts",
-                "keyword.operator.new.tsx",
-                "keyword.operator.or.regexp",
-                "keyword.other.DDL.create.II.sql",
-                "keyword.other.definition.ini",
-                "keyword.other.import.groovy",
-                "keyword.other.import.java",
-                "keyword.other.important.css",
-                "keyword.other.important.scss",
-                "keyword.other.package.groovy",
-                "keyword.other.package.java",
-                "keyword.other.rust",
-                "keyword.other.special-method.dockerfile",
-                "keyword.other.sql",
-                "meta.link.reference.markdown",
-                "punctuation.comma.rust",
-                "punctuation.definition.bold.markdown",
-                "punctuation.definition.constant.markdown",
-                "punctuation.definition.italic.markdown",
-                "punctuation.section.embedded.begin.tsx",
-                "punctuation.section.embedded.end.tsx",
-                "punctuation.semi.rust",
-                "punctuation.separator.arguments.python",
-                "punctuation.separator.comma.js",
-                "punctuation.separator.comma.ts",
-                "punctuation.separator.comma.tsx",
-                "punctuation.separator.list.comma.css",
-                "punctuation.separator.parameter.js",
-                "punctuation.separator.parameters.python",
-                "punctuation.separator.parameter.ts",
-                "punctuation.separator.parameter.tsx",
-                "punctuation.terminator.rule.css",
-                "punctuation.terminator.rule.scss",
-                "punctuation.terminator.statement.js",
-                "punctuation.terminator.statement.ts",
-                "punctuation.terminator.statement.tsx",
-                "storage.modifier.access-control.groovy",
-                "storage.modifier.async.js",
-                "storage.modifier.async.ts",
-                "storage.modifier.async.tsx",
-                "storage.modifier.extends.groovy",
-                "storage.modifier.extends.java",
-                "storage.modifier.groovy",
-                "storage.modifier.implements.java",
-                "storage.modifier.java",
-                "storage.modifier.sql",
-                "storage.modifier.static.groovy",
-                "storage.modifier.ts",
-                "storage.modifier.tsx",
-                "storage.type.class.tsx",
-                "storage.type.class.python",
-                "storage.type.def.groovy",
-                "storage.type.format.python",
-                "storage.type.function.js",
-                "storage.type.function.python",
-                "storage.type.function.ts",
-                "storage.type.function.tsx",
-                "storage.type.js",
-                "storage.type.namespace.ts",
-                "storage.type.namespace.tsx",
-                "storage.type.primitive.array.java",
-                "storage.type.primitive.groovy",
-                "storage.type.primitive.java",
-                "storage.type.sql",
-                "storage.type.ts",
-                "storage.type.tsx",
-                "storage.type.type.ts",
-                "storage.type.type.tsx",
-                "support.type.builtin.ts",
-                "support.type.builtin.tsx",
-                "support.type.primitive.js",
-                "support.type.primitive.ts",
-                "support.type.primitive.tsx",
-                "variable.language.this.java",
-                "variable.language.this.js",
-                "variable.language.this.ts",
-                "variable.language.this.tsx",
-                "variable.language.super.tsx"
-            ],
-            "settings": {
-                "foreground": "#cc7832"
-            }
-        },
-        {
-            "scope": [
-                "constant.other.caps.rust",
-                "constant.other.enum.java",
-                "markup.heading.markdown",
-                "markup.heading.setext.1.markdown",
-                "markup.heading.setext.2.markdown",
-                "meta.definition.variable.name.groovy",
-                "meta.object-literal.key.js",
-                "meta.object-literal.key.ts",
-                "meta.object-literal.key.tsx",
-                "support.class.builtin.js",
-                "support.class.builtin.ts",
-                "support.class.builtin.tsx",
-                "support.class.console.js",
-                "support.class.console.ts",
-                "support.class.console.tsx",
-                "support.class.promise.js",
-                "support.class.promise.ts",
-                "support.class.promise.tsx",
-                "support.constant.math.js",
-                "support.constant.math.ts",
-                "support.constant.math.tsx",
-                "support.type.object.module.js",
-                "support.type.property-name.json",
-                "support.variable.object.process.js",
-                "support.variable.object.process.ts",
-                "support.variable.object.process.tsx",
-                "support.variable.property.js",
-                "support.variable.property.process.js",
-                "support.variable.property.process.ts",
-                "support.variable.property.process.tsx",
-                "variable.language.special.self.python",
-                "variable.other.definition.java",
-                "variable.other.object.property.java",
-                "variable.other.property.java",
-                "variable.other.property.js",
-                "variable.other.property.ts",
-                "variable.other.property.tsx",
-                "variable.parameter.function.language.special.self.python",
-                "variable.scss"
-            ],
-            "settings": {
-                "foreground": "#9876aa"
-            }
-        },
-        {
-            "scope": [
-                "meta.method-call.java variable.other.property.java"
-            ],
-            "settings": {
-                "fontStyle": "italic"
-            }
-        },
-        {
-            "scope": [
-                "keyword.operator.combinator.css",
-                "keyword.operator.pattern.css",
-                "keyword.operator.pattern.scss",
-                "meta.method.body.java variable.other.definition.java",
-                "meta.template.expression.js",
-                "meta.template.expression.ts",
-                "meta.template.expression.tsx",
-                "punctuation.definition.entity.begin.bracket.square.css",
-                "punctuation.definition.attribute-selector.begin.bracket.square.scss",
-                "punctuation.definition.entity.css",
-                "punctuation.definition.entity.end.bracket.square.css",
-                "punctuation.definition.attribute-selector.end.bracket.square.scss",
-                "punctuation.section.function.begin.bracket.round.css",
-                "punctuation.definition.pseudo-class.begin.bracket.round.css",
-                "punctuation.section.function.end.bracket.round.css",
-                "punctuation.definition.pseudo-class.end.bracket.round.css",
-                "punctuation.separator.key-value.js",
-                "source.groovy.embedded.source",
-                "keyword.operator.css"
-            ],
-            "settings": {
-                "foreground": "#a9b7c6"
-            }
-        },
-        {
-            "scope": [
-                "constant.numeric.css",
-                "constant.numeric.decimal.java",
-                "constant.numeric.decimal.js",
-                "constant.numeric.dec.python",
-                "constant.numeric.decimal.rust",
-                "constant.numeric.decimal.ts",
-                "constant.numeric.decimal.tsx",
-                "constant.numeric.float.toml",
-                "constant.numeric.groovy",
-                "constant.numeric.hex.js",
-                "constant.numeric.hex.ts",
-                "constant.numeric.hex.tsx",
-                "constant.numeric.integer.toml",
-                "constant.numeric.json",
-                "constant.numeric.sql",
-                "constant.other.color.rgb-value.hex.css",
-                "keyword.operator.quantifier.regexp",
-                "string.regexp.js punctuation.definition.string.begin.js",
-                "string.regexp.ts punctuation.definition.string.begin.ts",
-                "string.regexp.tsx punctuation.definition.string.begin.tsx",
-                "string.regexp.js punctuation.definition.string.end.js",
-                "string.regexp.ts punctuation.definition.string.end.ts",
-                "string.regexp.tsx punctuation.definition.string.end.tsx"
-            ],
-            "settings": {
-                "foreground": "#6897bb"
-            }
-        },
-        {
-            "scope": [
-                "comment.block.css",
-                "comment.block.scss",
-                "comment.block.groovy",
-                "comment.block.html",
-                "comment.block.java",
-                "comment.block.js",
-                "comment.block.json.comments",
-                "comment.block.rust",
-                "comment.block.ts",
-                "comment.block.tsx",
-                "comment.block.xml",
-                "comment.line.scss",
-                "comment.line.double-slash.groovy",
-                "comment.line.double-slash.java",
-                "comment.line.double-slash.js",
-                "comment.line.double-slash.rust",
-                "comment.line.double-slash.ts",
-                "comment.line.double-slash.tsx",
-                "comment.line.number-sign.dockerfile",
-                "comment.line.number-sign.python",
-                "comment.line.number-sign.toml",
-                "markup.fenced_code.block.markdown",
-                "markup.inline.raw.string.markdown",
-                "markup.raw.block.markdown",
-                "meta.separator.markdown",
-                "punctuation.separator.key-value.ini",
-                "string.other.link.description.title.markdown"
-            ],
-            "settings": {
-                "foreground": "#808080"
-            }
-        },
-        {
-            "scope": [
-                "comment.block.documentation.js",
-                "comment.block.documentation.json.comments",
-                "comment.block.documentation.ts",
-                "comment.block.documentation.tsx",
-                "comment.block.javadoc.java",
-                "comment.line.documentation.rust"
-            ],
-            "settings": {
-                "foreground": "#629755",
-                "fontStyle": "italic"
-            }
-        },
-        {
-            "scope": [
-                "comment.block.javadoc.java variable.parameter.java"
-            ],
-            "settings": {
-                "foreground": "#8a653b"
-            }
-        },
-        {
-            "scope": [
-                "keyword.other.documentation.javadoc.java"
-            ],
-            "settings": {
-                "fontStyle": "italic bold"
-            }
-        },
-        {
-            "scope": [
-                "entity.name.function.decorator.python",
-                "meta.attribute.rust",
-                "meta.function.decorator.python support.type.python",
-                "punctuation.definition.annotation.java",
-                "punctuation.definition.attribute.rust",
-                "storage.type.annotation.groovy",
-                "storage.type.annotation.java"
-            ],
-            "settings": {
-                "foreground": "#bbb529"
-            }
-        },
-        {
-            "scope": [
-                "meta.declaration.annotation.java constant.other.key.java"
-            ],
-            "settings": {
-                "foreground": "#d0d0ff"
-            }
-        },
-        {
-            "scope": [
-                "constant.other.character-class.regexp",
-                "entity.name.function.js",
-                "entity.name.function.python",
-                "entity.name.function.rust",
-                "entity.name.function.ts",
-                "entity.name.function.tsx",
-                "entity.name.tag.localname.xml",
-                "markup.underline.link.image.markdown",
-                "markup.underline.link.markdown",
-                "meta.method.identifier.java entity.name.function.java",
-                "punctuation.definition.metadata.markdown",
-                "punctuation.definition.tag.xml",
-                "support.function.console.js",
-                "support.function.console.ts",
-                "support.function.console.tsx",
-                "support.function.js",
-                "support.function.ts",
-                "support.function.tsx",
-                "variable.other.readwrite.alias.js"
-            ],
-            "settings": {
-                "foreground": "#ffc66d"
-            }
-        },
-        {
-            "scope": [
-                "constant.other.character-class.set.regexp",
-                "constant.other.key.groovy",
-                "markup.quote.markdown",
-                "source.ini",
-                "storage.type.string.python",
-                "string.quoted.docstring.multi.python",
-                "string.quoted.double.css",
-                "string.quoted.double.scss",
-                "string.quoted.double.dockerfile",
-                "string.quoted.double.groovy",
-                "string.quoted.double.html",
-                "string.quoted.double.java",
-                "string.quoted.double.js",
-                "string.quoted.double.json",
-                "string.quoted.double.rust",
-                "string.quoted.double.sql",
-                "string.quoted.double.ts",
-                "string.quoted.double.tsx",
-                "string.quoted.double.xml",
-                "string.quoted.double.yaml",
-                "string.quoted.single.basic.line.toml",
-                "string.quoted.single.char.rust",
-                "string.quoted.single.css",
-                "string.quoted.single.scss",
-                "string.quoted.single.dockerfile",
-                "string.quoted.single.groovy",
-                "string.quoted.single.html",
-                "string.quoted.single.java",
-                "string.quoted.single.js",
-                "string.quoted.single.python",
-                "string.quoted.single.sql",
-                "string.quoted.single.ts",
-                "string.quoted.single.tsx",
-                "string.quoted.single.xml",
-                "string.quoted.single.yaml",
-                "string.regexp.js",
-                "string.regexp.ts",
-                "string.regexp.tsx",
-                "string.template.js",
-                "string.template.ts",
-                "string.template.tsx",
-                "string.unquoted.html"
-            ],
-            "settings": {
-                "foreground": "#6a8759"
-            }
-        },
-        {
-            "scope": [
-                "meta.image.inline.markdown punctuation.definition.string.begin.markdown",
-                "meta.image.inline.markdown punctuation.definition.string.end.markdown",
-                "meta.link.inet.markdown markup.underline.link.markdown",
-                "meta.link.inline.markdown punctuation.definition.string.begin.markdown",
-                "meta.link.inline.markdown punctuation.definition.string.end.markdown",
-                "meta.link.reference.markdown punctuation.definition.string.begin.markdown",
-                "meta.link.reference.markdown punctuation.definition.string.end.markdown",
-                "punctuation.definition.link.markdown",
-                "string.other.link.description.markdown",
-                "string.other.link.title.markdown",
-                "variable.parameter.url.css",
-                "variable.parameter.url.scss"
-            ],
-            "settings": {
-                "foreground": "#287bde"
-            }
-        },
-        {
-            "scope": [
-                "entity.name.tag.html",
-                "entity.name.tag.tsx",
-                "entity.other.attribute-name.id.css punctuation.definition.entity.css",
-                "entity.other.keyframe-offset.css",
-                "entity.other.keyframe-offset.percentage.css",
-                "meta.at-rule.keyframes.scss entity.other.attribute-name.scss",
-                "keyword.operator.logical.and.media.css",
-                "keyword.operator.logical.scss",
-                "keyword.operator.logical.only.media.css",
-                "keyword.control.operator.css.scss",
-                "meta.property-value.css",
-                "meta.property-value.scss",
-                "meta.selector.css",
-                "entity.other.attribute-name.class.css",
-                "entity.name.tag.css",
-                "entity.name.tag.reference.scss",
-                "entity.other.attribute-name.id.css",
-                "support.function.misc.scss",
-                "punctuation.definition.interpolation.begin.bracket.curly.scss",
-                "punctuation.definition.interpolation.end.bracket.curly.scss",
-                "entity.other.attribute-name.pseudo-element.css",
-                "entity.other.attribute-name.pseudo-class.css",
-                "entity.other.attribute-name.parent-selector-suffix.css punctuation.definition.entity.css",
-                "entity.name.function.scss",
-                "punctuation.definition.character-class.regexp",
-                "punctuation.definition.group.regexp",
-                "punctuation.definition.tag.begin.html",
-                "punctuation.definition.tag.begin.tsx",
-                "punctuation.definition.tag.end.html",
-                "punctuation.definition.tag.end.tsx",
-                "support.constant.media.css"
-            ],
-            "settings": {
-                "foreground": "#e8bf6a"
-            }
-        },
-        {
-            "scope": [
-                "support.function.magic.python",
-                "support.variable.magic.python"
-            ],
-            "settings": {
-                "foreground": "#B200B2"
-            }
-        },
-        {
-            "scope": [
-                "support.type.python",
-                "support.function.builtin.python"
-            ],
-            "settings": {
-                "foreground": "#8888C6"
-            }
-        },
-        {
-            "scope": "variable.parameter.function-call.python",
-            "settings": {
-                "foreground": "#AA4926"
-            }
-        },
-        {
-            "scope": [
-                "string.quoted.binary.single.python",
-                "string.quoted.binary.single.python storage.type.string.python"
-            ],
-            "settings": {
-                "foreground": "#A5C261"
-            }
-        },
-        {
-            "scope": "keyword.codetag.notation.python",
-            "settings": {
-                "foreground": "#A8C023",
-                "fontStyle": "italic",
-            }
-        },
-        {
-            "scope": [
-                "constant.character.escape.backslash.regexp",
-                "constant.other.character-class.regexp",
-                "keyword.control.anchor.regexp",
-                "keyword.operator.negation.regexp",
-                "keyword.operator.or.regexp",
-                "keyword.other.important.css",
-                "keyword.other.important.scss",
-                "support.class.builtin.js",
-                "support.class.builtin.ts",
-                "support.class.builtin.tsx",
-                "support.class.console.js",
-                "support.class.console.ts",
-                "support.class.console.tsx",
-                "support.class.promise.js",
-                "support.class.promise.ts",
-                "support.class.promise.tsx",
-                "support.constant.math.js",
-                "support.constant.math.ts",
-                "support.constant.math.tsx",
-                "support.variable.object.process.js",
-                "support.variable.object.process.ts",
-                "support.variable.object.process.tsx"
-            ],
-            "settings": {
-                "fontStyle": "bold"
-            }
-        },
-        {
-            "scope": "string.quoted.docstring.multi.python",
-            "settings": {
-                "fontStyle": "italic"
-            }
-        },
-        {
-            "scope": [
-                "entity.name.function.macro.rust"
-            ],
-            "settings": {
-                "foreground": "#55a3d1"
-            }
-        }
-    ],
-    "semanticTokenColors": {
-        "property:java": {
-            "foreground": "#9876aa"
-        },
-        "property.static:java": {
-            "fontStyle": "italic"
-        },
-        "method.static:java": {
-            "fontStyle": "italic"
-        },
-        "method.static.declaration:java": {
-            "fontStyle": ""
-        },
-        "enumMember:java": {
-          "fontStyle": "italic",
-          "foreground": "#9876aa"
-        },
-        "enumMember:rust": {
-            "foreground": "#9876aa"
-        },
-        "property:rust": {
-            "foreground": "#9876aa"
-        },
-        "typeParameter:rust": {
-            "foreground": "#199187"       
-        }        
+    {
+      "scope": [
+        "constant.other.caps.rust",
+        "constant.other.enum.java",
+        "markup.heading.markdown",
+        "markup.heading.setext.1.markdown",
+        "markup.heading.setext.2.markdown",
+        "meta.definition.variable.name.groovy",
+        "meta.object-literal.key.js",
+        "meta.object-literal.key.ts",
+        "meta.object-literal.key.tsx",
+        "support.class.builtin.js",
+        "support.class.builtin.ts",
+        "support.class.builtin.tsx",
+        "support.class.console.js",
+        "support.class.console.ts",
+        "support.class.console.tsx",
+        "support.class.promise.js",
+        "support.class.promise.ts",
+        "support.class.promise.tsx",
+        "support.constant.math.js",
+        "support.constant.math.ts",
+        "support.constant.math.tsx",
+        "support.type.object.module.js",
+        "support.type.property-name.json",
+        "support.variable.object.process.js",
+        "support.variable.object.process.ts",
+        "support.variable.object.process.tsx",
+        "support.variable.property.js",
+        "support.variable.property.process.js",
+        "support.variable.property.process.ts",
+        "support.variable.property.process.tsx",
+        "variable.language.special.self.python",
+        "variable.other.definition.java",
+        "variable.other.object.property.java",
+        "variable.other.property.java",
+        "variable.other.property.js",
+        "variable.other.property.ts",
+        "variable.other.property.tsx",
+        "variable.parameter.function.language.special.self.python",
+        "variable.scss"
+      ],
+      "settings": {
+        "foreground": "#9876aa"
+      }
+    },
+    {
+      "scope": [
+        "meta.method-call.java variable.other.property.java"
+      ],
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": [
+        "keyword.operator.combinator.css",
+        "keyword.operator.css",
+        "keyword.operator.pattern.css",
+        "keyword.operator.pattern.scss",
+        "meta.method.body.java variable.other.definition.java",
+        "meta.template.expression.js",
+        "meta.template.expression.ts",
+        "meta.template.expression.tsx",
+        "punctuation.definition.attribute-selector.begin.bracket.square.scss",
+        "punctuation.definition.attribute-selector.end.bracket.square.scss",
+        "punctuation.definition.entity.begin.bracket.square.css",
+        "punctuation.definition.entity.css",
+        "punctuation.definition.entity.end.bracket.square.css",
+        "punctuation.definition.pseudo-class.begin.bracket.round.css",
+        "punctuation.definition.pseudo-class.end.bracket.round.css",
+        "punctuation.section.function.begin.bracket.round.css",
+        "punctuation.section.function.end.bracket.round.css",
+        "punctuation.separator.key-value.js",
+        "source.groovy.embedded.source"
+      ],
+      "settings": {
+        "foreground": "#a9b7c6"
+      }
+    },
+    {
+      "scope": [
+        "constant.numeric.css",
+        "constant.numeric.dec.python",
+        "constant.numeric.decimal.java",
+        "constant.numeric.decimal.js",
+        "constant.numeric.decimal.rust",
+        "constant.numeric.decimal.ts",
+        "constant.numeric.decimal.tsx",
+        "constant.numeric.float.toml",
+        "constant.numeric.groovy",
+        "constant.numeric.hex.js",
+        "constant.numeric.hex.ts",
+        "constant.numeric.hex.tsx",
+        "constant.numeric.integer.toml",
+        "constant.numeric.json",
+        "constant.numeric.sql",
+        "constant.other.color.rgb-value.hex.css",
+        "keyword.operator.quantifier.regexp",
+        "string.regexp.js punctuation.definition.string.begin.js",
+        "string.regexp.js punctuation.definition.string.end.js",
+        "string.regexp.ts punctuation.definition.string.begin.ts",
+        "string.regexp.ts punctuation.definition.string.end.ts",
+        "string.regexp.tsx punctuation.definition.string.begin.tsx",
+        "string.regexp.tsx punctuation.definition.string.end.tsx"
+      ],
+      "settings": {
+        "foreground": "#6897bb"
+      }
+    },
+    {
+      "scope": [
+        "comment.block.css",
+        "comment.block.groovy",
+        "comment.block.html",
+        "comment.block.java",
+        "comment.block.js",
+        "comment.block.json.comments",
+        "comment.block.rust",
+        "comment.block.scss",
+        "comment.block.ts",
+        "comment.block.tsx",
+        "comment.block.xml",
+        "comment.line.double-slash.groovy",
+        "comment.line.double-slash.java",
+        "comment.line.double-slash.js",
+        "comment.line.double-slash.rust",
+        "comment.line.double-slash.ts",
+        "comment.line.double-slash.tsx",
+        "comment.line.number-sign.dockerfile",
+        "comment.line.number-sign.python",
+        "comment.line.number-sign.toml",
+        "comment.line.scss",
+        "markup.fenced_code.block.markdown",
+        "markup.inline.raw.string.markdown",
+        "markup.raw.block.markdown",
+        "meta.separator.markdown",
+        "punctuation.separator.key-value.ini",
+        "string.other.link.description.title.markdown"
+      ],
+      "settings": {
+        "foreground": "#808080"
+      }
+    },
+    {
+      "scope": [
+        "comment.block.documentation.js",
+        "comment.block.documentation.json.comments",
+        "comment.block.documentation.ts",
+        "comment.block.documentation.tsx",
+        "comment.block.javadoc.java",
+        "comment.line.documentation.rust"
+      ],
+      "settings": {
+        "foreground": "#629755",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": [
+        "comment.block.javadoc.java variable.parameter.java"
+      ],
+      "settings": {
+        "foreground": "#8a653b"
+      }
+    },
+    {
+      "scope": [
+        "keyword.other.documentation.javadoc.java"
+      ],
+      "settings": {
+        "fontStyle": "italic bold"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.function.decorator.python",
+        "meta.attribute.rust",
+        "meta.function.decorator.python support.type.python",
+        "punctuation.definition.annotation.java",
+        "punctuation.definition.attribute.rust",
+        "storage.type.annotation.groovy",
+        "storage.type.annotation.java"
+      ],
+      "settings": {
+        "foreground": "#bbb529"
+      }
+    },
+    {
+      "scope": [
+        "meta.declaration.annotation.java constant.other.key.java"
+      ],
+      "settings": {
+        "foreground": "#d0d0ff"
+      }
+    },
+    {
+      "scope": [
+        "constant.other.character-class.regexp",
+        "entity.name.function.js",
+        "entity.name.function.python",
+        "entity.name.function.rust",
+        "entity.name.function.ts",
+        "entity.name.function.tsx",
+        "entity.name.tag.localname.xml",
+        "markup.underline.link.image.markdown",
+        "markup.underline.link.markdown",
+        "meta.method.identifier.java entity.name.function.java",
+        "punctuation.definition.metadata.markdown",
+        "punctuation.definition.tag.xml",
+        "support.function.console.js",
+        "support.function.console.ts",
+        "support.function.console.tsx",
+        "support.function.js",
+        "support.function.ts",
+        "support.function.tsx",
+        "variable.other.readwrite.alias.js"
+      ],
+      "settings": {
+        "foreground": "#ffc66d"
+      }
+    },
+    {
+      "scope": [
+        "constant.other.character-class.set.regexp",
+        "constant.other.key.groovy",
+        "markup.quote.markdown",
+        "source.ini",
+        "storage.type.string.python",
+        "string.quoted.docstring.multi.python",
+        "string.quoted.double.css",
+        "string.quoted.double.dockerfile",
+        "string.quoted.double.groovy",
+        "string.quoted.double.html",
+        "string.quoted.double.java",
+        "string.quoted.double.js",
+        "string.quoted.double.json",
+        "string.quoted.double.rust",
+        "string.quoted.double.scss",
+        "string.quoted.double.sql",
+        "string.quoted.double.ts",
+        "string.quoted.double.tsx",
+        "string.quoted.double.xml",
+        "string.quoted.double.yaml",
+        "string.quoted.single.basic.line.toml",
+        "string.quoted.single.char.rust",
+        "string.quoted.single.css",
+        "string.quoted.single.dockerfile",
+        "string.quoted.single.groovy",
+        "string.quoted.single.html",
+        "string.quoted.single.java",
+        "string.quoted.single.js",
+        "string.quoted.single.python",
+        "string.quoted.single.scss",
+        "string.quoted.single.sql",
+        "string.quoted.single.ts",
+        "string.quoted.single.tsx",
+        "string.quoted.single.xml",
+        "string.quoted.single.yaml",
+        "string.regexp.js",
+        "string.regexp.ts",
+        "string.regexp.tsx",
+        "string.template.js",
+        "string.template.ts",
+        "string.template.tsx",
+        "string.unquoted.html"
+      ],
+      "settings": {
+        "foreground": "#6a8759"
+      }
+    },
+    {
+      "scope": [
+        "meta.image.inline.markdown punctuation.definition.string.begin.markdown",
+        "meta.image.inline.markdown punctuation.definition.string.end.markdown",
+        "meta.link.inet.markdown markup.underline.link.markdown",
+        "meta.link.inline.markdown punctuation.definition.string.begin.markdown",
+        "meta.link.inline.markdown punctuation.definition.string.end.markdown",
+        "meta.link.reference.markdown punctuation.definition.string.begin.markdown",
+        "meta.link.reference.markdown punctuation.definition.string.end.markdown",
+        "punctuation.definition.link.markdown",
+        "string.other.link.description.markdown",
+        "string.other.link.title.markdown",
+        "variable.parameter.url.css",
+        "variable.parameter.url.scss"
+      ],
+      "settings": {
+        "foreground": "#287bde"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.function.scss",
+        "entity.name.tag.css",
+        "entity.name.tag.html",
+        "entity.name.tag.reference.scss",
+        "entity.name.tag.tsx",
+        "entity.other.attribute-name.class.css",
+        "entity.other.attribute-name.id.css punctuation.definition.entity.css",
+        "entity.other.attribute-name.id.css",
+        "entity.other.attribute-name.parent-selector-suffix.css punctuation.definition.entity.css",
+        "entity.other.attribute-name.pseudo-class.css",
+        "entity.other.attribute-name.pseudo-element.css",
+        "entity.other.keyframe-offset.css",
+        "entity.other.keyframe-offset.percentage.css",
+        "keyword.control.operator.css.scss",
+        "keyword.operator.logical.and.media.css",
+        "keyword.operator.logical.only.media.css",
+        "keyword.operator.logical.scss",
+        "meta.at-rule.keyframes.scss entity.other.attribute-name.scss",
+        "meta.property-value.css",
+        "meta.property-value.scss",
+        "meta.selector.css",
+        "punctuation.definition.character-class.regexp",
+        "punctuation.definition.group.regexp",
+        "punctuation.definition.interpolation.begin.bracket.curly.scss",
+        "punctuation.definition.interpolation.end.bracket.curly.scss",
+        "punctuation.definition.tag.begin.html",
+        "punctuation.definition.tag.begin.tsx",
+        "punctuation.definition.tag.end.html",
+        "punctuation.definition.tag.end.tsx",
+        "support.constant.media.css",
+        "support.function.misc.scss"
+      ],
+      "settings": {
+        "foreground": "#e8bf6a"
+      }
+    },
+    {
+      "scope": [
+        "support.function.magic.python",
+        "support.variable.magic.python"
+      ],
+      "settings": {
+        "foreground": "#B200B2"
+      }
+    },
+    {
+      "scope": [
+        "support.function.builtin.python",
+        "support.type.python"
+      ],
+      "settings": {
+        "foreground": "#8888C6"
+      }
+    },
+    {
+      "scope": "variable.parameter.function-call.python",
+      "settings": {
+        "foreground": "#AA4926"
+      }
+    },
+    {
+      "scope": [
+        "string.quoted.binary.single.python",
+        "string.quoted.binary.single.python storage.type.string.python"
+      ],
+      "settings": {
+        "foreground": "#A5C261"
+      }
+    },
+    {
+      "scope": "keyword.codetag.notation.python",
+      "settings": {
+        "foreground": "#A8C023",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": [
+        "constant.character.escape.backslash.regexp",
+        "constant.other.character-class.regexp",
+        "keyword.control.anchor.regexp",
+        "keyword.operator.negation.regexp",
+        "keyword.operator.or.regexp",
+        "keyword.other.important.css",
+        "keyword.other.important.scss",
+        "support.class.builtin.js",
+        "support.class.builtin.ts",
+        "support.class.builtin.tsx",
+        "support.class.console.js",
+        "support.class.console.ts",
+        "support.class.console.tsx",
+        "support.class.promise.js",
+        "support.class.promise.ts",
+        "support.class.promise.tsx",
+        "support.constant.math.js",
+        "support.constant.math.ts",
+        "support.constant.math.tsx",
+        "support.variable.object.process.js",
+        "support.variable.object.process.ts",
+        "support.variable.object.process.tsx"
+      ],
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "string.quoted.docstring.multi.python",
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.function.macro.rust"
+      ],
+      "settings": {
+        "foreground": "#55a3d1"
+      }
     }
+  ],
+  "semanticTokenColors": {
+    "property:java": {
+      "foreground": "#9876aa"
+    },
+    "property.static:java": {
+      "fontStyle": "italic"
+    },
+    "method.static:java": {
+      "fontStyle": "italic"
+    },
+    "method.static.declaration:java": {
+      "fontStyle": ""
+    },
+    "enumMember:java": {
+      "fontStyle": "italic",
+      "foreground": "#9876aa"
+    },
+    "enumMember:rust": {
+      "foreground": "#9876aa"
+    },
+    "property:rust": {
+      "foreground": "#9876aa"
+    },
+    "typeParameter:rust": {
+      "foreground": "#199187"
+    }
+  }
 }
