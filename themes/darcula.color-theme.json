@@ -185,6 +185,7 @@
         "storage.modifier.static.groovy",
         "storage.modifier.ts",
         "storage.modifier.tsx",
+        "storage.type.class.js",
         "storage.type.class.python",
         "storage.type.class.tsx",
         "storage.type.def.groovy",
