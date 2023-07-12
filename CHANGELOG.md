@@ -1,5 +1,8 @@
 # Change Log
 
+## [1.11.1]
+- JS - Add color for class keyword
+
 ## [1.11.0]
 - Add support for SCSS
 
