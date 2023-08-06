@@ -183,6 +183,7 @@
         "storage.modifier.java",
         "storage.modifier.sql",
         "storage.modifier.static.groovy",
+		"storage.modifier.js",
         "storage.modifier.ts",
         "storage.modifier.tsx",
         "storage.type.class.js",
