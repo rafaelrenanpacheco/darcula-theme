@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.12.0]
+- Add support for C
+- JS - Add color for modifiers
+
 ## [1.11.1]
 - JS - Add color for class keyword
 
