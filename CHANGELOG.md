@@ -1,5 +1,8 @@
 # Change Log
 
+## [1.13.0]
+- Add support for Makefile
+
 ## [1.12.0]
 - Add support for C
 - JS - Add color for modifiers

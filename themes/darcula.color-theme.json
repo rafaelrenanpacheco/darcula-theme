@@ -307,6 +307,7 @@
         "keyword.operator.pattern.css",
         "keyword.operator.pattern.scss",
         "meta.method.body.java variable.other.definition.java",
+        "meta.scope.prerequisites.makefile",
         "meta.template.expression.js",
         "meta.template.expression.ts",
         "meta.template.expression.tsx",
@@ -320,9 +321,8 @@
         "punctuation.section.function.begin.bracket.round.css",
         "punctuation.section.function.end.bracket.round.css",
         "punctuation.separator.key-value.js",
-        "source.groovy.embedded.source",
-        "meta.scope.prerequisites.makefile",
-        "punctuation.separator.key-value.makefile"
+        "punctuation.separator.key-value.makefile",
+        "source.groovy.embedded.source"
       ],
       "settings": {
         "foreground": "#a9b7c6"
@@ -465,6 +465,7 @@
         "markup.underline.link.image.markdown",
         "markup.underline.link.markdown",
         "meta.method.identifier.java entity.name.function.java",
+        "meta.scope.target.makefile",
         "punctuation.definition.metadata.markdown",
         "punctuation.definition.tag.xml",
         "support.function.console.js",
@@ -473,8 +474,7 @@
         "support.function.js",
         "support.function.ts",
         "support.function.tsx",
-        "variable.other.readwrite.alias.js",
-        "meta.scope.target.makefile"
+        "variable.other.readwrite.alias.js"
       ],
       "settings": {
         "foreground": "#ffc66d"
