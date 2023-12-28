@@ -96,7 +96,7 @@
         "keyword.control.directive.include.c",
         "keyword.control.each.scss",
         "keyword.control.else.scss",
-		"keyword.control.else.makefile",
+        "keyword.control.else.makefile",
         "keyword.control.export.js",
         "keyword.control.export.ts",
         "keyword.control.export.tsx",
@@ -131,11 +131,11 @@
         "keyword.control.trycatch.tsx",
         "keyword.control.warn.scss",
         "keyword.control.while.scss",
-		"keyword.control.include.makefile",
-		"keyword.control.ifeq.makefile",
-		"keyword.control.endif.makefile",
-		"keyword.control.override.makefile",
-		"keyword.control.define.makefile",
+        "keyword.control.include.makefile",
+        "keyword.control.ifeq.makefile",
+        "keyword.control.endif.makefile",
+        "keyword.control.override.makefile",
+        "keyword.control.define.makefile",
         "keyword.key.toml",
         "keyword.operator.expression.in.js",
         "keyword.operator.expression.in.ts",
@@ -168,7 +168,7 @@
         "punctuation.definition.bold.markdown",
         "punctuation.definition.constant.markdown",
         "punctuation.definition.italic.markdown",
-		"punctuation.definition.variable.makefile",
+        "punctuation.definition.variable.makefile",
         "punctuation.section.embedded.begin.tsx",
         "punctuation.section.embedded.end.tsx",
         "punctuation.semi.rust",
@@ -284,7 +284,7 @@
         "variable.other.property.js",
         "variable.other.property.ts",
         "variable.other.property.tsx",
-		"variable.other.makefile",
+        "variable.other.makefile",
         "variable.parameter.function.language.special.self.python",
         "variable.scss"
       ],
@@ -321,8 +321,8 @@
         "punctuation.section.function.end.bracket.round.css",
         "punctuation.separator.key-value.js",
         "source.groovy.embedded.source",
-		"meta.scope.prerequisites.makefile",
-		"punctuation.separator.key-value.makefile"
+        "meta.scope.prerequisites.makefile",
+        "punctuation.separator.key-value.makefile"
       ],
       "settings": {
         "foreground": "#a9b7c6"
@@ -385,7 +385,7 @@
         "comment.line.number-sign.python",
         "comment.line.number-sign.toml",
         "comment.line.scss",
-		"comment.line.number-sign.makefile",
+        "comment.line.number-sign.makefile",
         "markup.fenced_code.block.markdown",
         "markup.inline.raw.string.markdown",
         "markup.raw.block.markdown",
@@ -446,7 +446,7 @@
     {
       "scope": [
         "meta.declaration.annotation.java constant.other.key.java",
-		"variable.language.makefile"
+        "variable.language.makefile"
       ],
       "settings": {
         "foreground": "#d0d0ff"
@@ -474,7 +474,7 @@
         "support.function.ts",
         "support.function.tsx",
         "variable.other.readwrite.alias.js",
-		"meta.scope.target.makefile"
+        "meta.scope.target.makefile"
       ],
       "settings": {
         "foreground": "#ffc66d"
