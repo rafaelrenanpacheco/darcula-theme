@@ -6,7 +6,7 @@ Darcula theme for [Visual Studio Code](https://code.visualstudio.com) based on [
 * JavaScript
 * TypeScript
 * Python
-* C
+* C/C++
 * React TSX
 * Groovy
 * Rust

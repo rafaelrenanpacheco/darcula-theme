@@ -1,5 +1,8 @@
 # Change Log
 
+## [1.14.0]
+- Add support for C++
+
 ## [1.13.0]
 - Add support for Makefile
 
