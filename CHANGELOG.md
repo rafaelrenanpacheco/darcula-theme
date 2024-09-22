@@ -1,5 +1,8 @@
 # Change Log
 
+## [1.15.0]
+- Enhance menu colors
+
 ## [1.14.0]
 - Add support for C++
 
