@@ -281,6 +281,7 @@
         "storage.type.tsx",
         "storage.type.type.ts",
         "storage.type.type.tsx",
+        "support.constant.java-properties",
         "support.type.builtin.ts",
         "support.type.builtin.tsx",
         "support.type.primitive.js",
@@ -448,6 +449,7 @@
         "comment.line.double-slash.rust",
         "comment.line.double-slash.ts",
         "comment.line.double-slash.tsx",
+        "comment.line.java-properties",
         "comment.line.number-sign.dockerfile",
         "comment.line.number-sign.makefile",
         "comment.line.number-sign.python",
@@ -458,6 +460,7 @@
         "markup.raw.block.markdown",
         "meta.separator.markdown",
         "punctuation.separator.key-value.ini",
+        "punctuation.separator.key-value.java-properties",
         "string.other.link.description.title.markdown"
       ],
       "settings": {
@@ -596,7 +599,8 @@
         "string.template.js",
         "string.template.ts",
         "string.template.tsx",
-        "string.unquoted.html"
+        "string.unquoted.html",
+        "string.unquoted.java-properties"
       ],
       "settings": {
         "foreground": "#6a8759"

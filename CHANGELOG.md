@@ -1,5 +1,8 @@
 # Change Log
 
+## [1.16.0]
+- Add support for Java properties
+
 ## [1.15.0]
 - Enhance menu colors
 
