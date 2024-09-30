@@ -1,5 +1,8 @@
 # Change Log
 
+## [1.17.1]
+- Go - Add missing import token color
+
 ## [1.17.0]
 - Add support for Go
 

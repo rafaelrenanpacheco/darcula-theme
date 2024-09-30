@@ -732,7 +732,8 @@
     },
     {
       "scope": [
-        "entity.name.type.package.go"
+        "entity.name.type.package.go",
+        "variable.other.import.go"
       ],
       "settings": {
         "foreground": "#AFBF7E"
