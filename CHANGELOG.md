@@ -1,5 +1,8 @@
 # Change Log
 
+## [1.17.0]
+- Add support for Go
+
 ## [1.16.0]
 - Add support for Java properties
 

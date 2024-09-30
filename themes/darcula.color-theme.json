@@ -42,6 +42,7 @@
       "scope": [
         "constant.character.escape.backslash.regexp",
         "constant.character.escape.c",
+        "constant.character.escape.go",
         "constant.character.escape.js",
         "constant.character.escape.python",
         "constant.character.escape.ts",
@@ -50,14 +51,17 @@
         "constant.language.boolean.false.js",
         "constant.language.boolean.false.ts",
         "constant.language.boolean.false.tsx",
+        "constant.language.boolean.go",
         "constant.language.boolean.true.js",
         "constant.language.boolean.true.ts",
         "constant.language.boolean.true.tsx",
+        "constant.language.boolean.yaml",
         "constant.language.c",
         "constant.language.false.cpp",
         "constant.language.groovy",
         "constant.language.java",
         "constant.language.json",
+        "constant.language.null.go",
         "constant.language.null.js",
         "constant.language.null.ts",
         "constant.language.null.tsx",
@@ -66,12 +70,17 @@
         "constant.language.undefined.js",
         "constant.language.undefined.ts",
         "constant.language.undefined.tsx",
+        "constant.other.placeholder.go",
         "constant.other.reference.link.markdown",
+        "entity.name.function.support.builtin.go",
         "entity.name.tag.wildcard.css",
         "entity.name.tag.wildcard.scss",
         "entity.name.tag.yaml",
+        "entity.name.type.any.go",
         "entity.name.type.numeric.rust",
         "entity.other.attribute-name.table.toml",
+        "keyword.channel.go",
+        "keyword.const.go",
         "keyword.control.anchor.regexp",
         "keyword.control.as.ts",
         "keyword.control.as.tsx",
@@ -130,10 +139,12 @@
         "keyword.control.from.js",
         "keyword.control.from.ts",
         "keyword.control.from.tsx",
+        "keyword.control.go",
         "keyword.control.groovy",
         "keyword.control.if.cpp",
         "keyword.control.if.scss",
         "keyword.control.ifeq.makefile",
+        "keyword.control.import.go",
         "keyword.control.import.js",
         "keyword.control.import.python",
         "keyword.control.import.ts",
@@ -162,7 +173,10 @@
         "keyword.control.warn.scss",
         "keyword.control.while.cpp",
         "keyword.control.while.scss",
+        "keyword.function.go",
+        "keyword.interface.go",
         "keyword.key.toml",
+        "keyword.map.go",
         "keyword.operator.delete.array.cpp",
         "keyword.operator.delete.cpp",
         "keyword.operator.expression.in.js",
@@ -192,6 +206,10 @@
         "keyword.other.sql",
         "keyword.other.typedef.c",
         "keyword.other.using.directive.cpp",
+        "keyword.package.go",
+        "keyword.struct.go",
+        "keyword.type.go",
+        "keyword.var.go",
         "meta.at-rule.each.scss keyword.control.operator",
         "meta.at-rule.for.scss keyword.control.operator",
         "meta.link.reference.markdown",
@@ -244,8 +262,10 @@
         "storage.modifier.ts",
         "storage.modifier.tsx",
         "storage.modifier.virtual.cpp",
+        "storage.type.boolean.go",
         "storage.type.built-in.primitive.c",
         "storage.type.built-in.primitive.cpp",
+        "storage.type.byte.go",
         "storage.type.class.cpp",
         "storage.type.class.js",
         "storage.type.class.python",
@@ -254,6 +274,7 @@
         "storage.type.enum.c",
         "storage.type.enum.cpp",
         "storage.type.enum.enum-key.class.cpp",
+        "storage.type.error.go",
         "storage.type.format.python",
         "storage.type.function.js",
         "storage.type.function.python",
@@ -270,10 +291,13 @@
         "storage.type.namespace.directive.cpp",
         "storage.type.namespace.ts",
         "storage.type.namespace.tsx",
+        "storage.type.numeric.go",
         "storage.type.primitive.array.java",
         "storage.type.primitive.groovy",
         "storage.type.primitive.java",
+        "storage.type.rune.go",
         "storage.type.sql",
+        "storage.type.string.go",
         "storage.type.struct.c",
         "storage.type.struct.cpp",
         "storage.type.template.cpp",
@@ -398,6 +422,7 @@
         "constant.numeric.dec.python",
         "constant.numeric.decimal.c",
         "constant.numeric.decimal.cpp",
+        "constant.numeric.decimal.go",
         "constant.numeric.decimal.java",
         "constant.numeric.decimal.js",
         "constant.numeric.decimal.point.c",
@@ -410,11 +435,13 @@
         "constant.numeric.hex.js",
         "constant.numeric.hex.ts",
         "constant.numeric.hex.tsx",
+        "constant.numeric.hexadecimal.go",
         "constant.numeric.integer.toml",
         "constant.numeric.json",
         "constant.numeric.sql",
         "constant.other.color.rgb-value.hex.css",
         "keyword.operator.quantifier.regexp",
+        "keyword.other.unit.hexadecimal.go",
         "string.regexp.js punctuation.definition.string.begin.js",
         "string.regexp.js punctuation.definition.string.end.js",
         "string.regexp.ts punctuation.definition.string.begin.ts",
@@ -443,6 +470,7 @@
         "comment.block.xml",
         "comment.line.double-slash.c",
         "comment.line.double-slash.cpp",
+        "comment.line.double-slash.go",
         "comment.line.double-slash.groovy",
         "comment.line.double-slash.java",
         "comment.line.double-slash.js",
@@ -454,6 +482,7 @@
         "comment.line.number-sign.makefile",
         "comment.line.number-sign.python",
         "comment.line.number-sign.toml",
+        "comment.line.number-sign.yaml",
         "comment.line.scss",
         "markup.fenced_code.block.markdown",
         "markup.inline.raw.string.markdown",
@@ -564,6 +593,7 @@
         "string.quoted.double.cpp",
         "string.quoted.double.css",
         "string.quoted.double.dockerfile",
+        "string.quoted.double.go",
         "string.quoted.double.groovy",
         "string.quoted.double.html",
         "string.quoted.double.java",
@@ -576,6 +606,7 @@
         "string.quoted.double.tsx",
         "string.quoted.double.xml",
         "string.quoted.double.yaml",
+        "string.quoted.raw.go",
         "string.quoted.single.basic.line.toml",
         "string.quoted.single.c",
         "string.quoted.single.char.rust",
@@ -627,6 +658,7 @@
     },
     {
       "scope": [
+        "entity.name.function.go",
         "entity.name.function.scss",
         "entity.name.tag.css",
         "entity.name.tag.html",
@@ -682,7 +714,9 @@
       }
     },
     {
-      "scope": "variable.parameter.function-call.python",
+      "scope": [
+        "variable.parameter.function-call.python"
+      ],
       "settings": {
         "foreground": "#AA4926"
       }
@@ -697,7 +731,33 @@
       }
     },
     {
-      "scope": "keyword.codetag.notation.python",
+      "scope": [
+        "entity.name.type.package.go"
+      ],
+      "settings": {
+        "foreground": "#AFBF7E"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.type.go"
+      ],
+      "settings": {
+        "foreground": "#6FAFBD"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.function.support.go"
+      ],
+      "settings": {
+        "foreground": "#B09D79"
+      }
+    },
+    {
+      "scope": [
+        "keyword.codetag.notation.python"
+      ],
       "settings": {
         "foreground": "#A8C023",
         "fontStyle": "italic"
@@ -733,7 +793,9 @@
       }
     },
     {
-      "scope": "string.quoted.docstring.multi.python",
+      "scope": [
+        "string.quoted.docstring.multi.python"
+      ],
       "settings": {
         "fontStyle": "italic"
       }
