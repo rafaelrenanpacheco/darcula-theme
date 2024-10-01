@@ -1,5 +1,8 @@
 # Change Log
 
+## [1.17.2]
+- SQL - Add new tokens
+
 ## [1.17.1]
 - Go - Add missing import token color
 
