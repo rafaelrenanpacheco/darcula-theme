@@ -462,6 +462,7 @@
         "comment.block.c",
         "comment.block.cpp",
         "comment.block.css",
+        "comment.block.go",
         "comment.block.groovy",
         "comment.block.html",
         "comment.block.java",

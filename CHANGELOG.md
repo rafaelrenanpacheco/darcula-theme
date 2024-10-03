@@ -1,5 +1,8 @@
 # Change Log
 
+## [1.17.3]
+- Go - Add comment block token
+
 ## [1.17.2]
 - SQL - Add new tokens
 
