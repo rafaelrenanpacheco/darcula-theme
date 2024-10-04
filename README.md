@@ -17,6 +17,7 @@ Darcula theme for [Visual Studio Code](https://code.visualstudio.com) based on [
 * SQL
 * XML
 * YAML
+* GraphQL
 * Dockerfile
 * Makefile
 * Markdown
