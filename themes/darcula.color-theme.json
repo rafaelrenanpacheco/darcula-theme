@@ -174,9 +174,11 @@
         "keyword.control.while.cpp",
         "keyword.control.while.scss",
         "keyword.function.go",
+        "keyword.go.mod",
         "keyword.interface.go",
         "keyword.key.toml",
         "keyword.map.go",
+        "keyword.on.graphql",
         "keyword.operator.delete.array.cpp",
         "keyword.operator.delete.cpp",
         "keyword.operator.expression.in.js",
@@ -192,6 +194,7 @@
         "keyword.operator.new.ts",
         "keyword.operator.new.tsx",
         "keyword.operator.or.regexp",
+        "keyword.operator.spread.graphql",
         "keyword.other.alias.sql",
         "keyword.other.create.sql",
         "keyword.other.DDL.create.II.sql",
@@ -218,11 +221,13 @@
         "meta.at-rule.for.scss keyword.control.operator",
         "meta.link.reference.markdown",
         "meta.preprocessor.macro.cpp",
+        "punctuation.colon.graphql",
         "punctuation.comma.rust",
         "punctuation.definition.bold.markdown",
         "punctuation.definition.constant.markdown",
         "punctuation.definition.italic.markdown",
         "punctuation.definition.variable.makefile",
+        "punctuation.graphql",
         "punctuation.section.embedded.begin.tsx",
         "punctuation.section.embedded.end.tsx",
         "punctuation.semi.rust",
@@ -366,6 +371,7 @@
         "support.variable.property.process.js",
         "support.variable.property.process.ts",
         "support.variable.property.process.tsx",
+        "variable.graphql",
         "variable.language.special.self.python",
         "variable.other.definition.java",
         "variable.other.makefile",
@@ -422,6 +428,7 @@
     },
     {
       "scope": [
+        "constant.language.go.mod",
         "constant.numeric.css",
         "constant.numeric.dec.python",
         "constant.numeric.decimal.c",
@@ -434,6 +441,7 @@
         "constant.numeric.decimal.rust",
         "constant.numeric.decimal.ts",
         "constant.numeric.decimal.tsx",
+        "constant.numeric.float.graphql",
         "constant.numeric.float.toml",
         "constant.numeric.groovy",
         "constant.numeric.hex.js",
@@ -471,6 +479,7 @@
         "comment.block.rust",
         "comment.block.scss",
         "comment.block.ts",
+        "comment.line.graphql.js",
         "comment.block.tsx",
         "comment.block.xml",
         "comment.line.double-dash.sql",
@@ -600,6 +609,7 @@
         "string.quoted.double.css",
         "string.quoted.double.dockerfile",
         "string.quoted.double.go",
+        "string.quoted.double.graphql",
         "string.quoted.double.groovy",
         "string.quoted.double.html",
         "string.quoted.double.java",
@@ -636,6 +646,7 @@
         "string.template.js",
         "string.template.ts",
         "string.template.tsx",
+        "string.unquoted.go.mod",
         "string.unquoted.html",
         "string.unquoted.java-properties"
       ],
@@ -813,6 +824,15 @@
       ],
       "settings": {
         "foreground": "#55a3d1"
+      }
+    },
+    {
+      "scope": [
+        "constant.character.enum.graphql"
+      ],
+      "settings": {
+        "foreground": "#9876aa",
+        "fontStyle": "italic"
       }
     }
   ],

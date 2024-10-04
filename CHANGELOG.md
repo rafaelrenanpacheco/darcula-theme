@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.18.0]
+- Add GraphQL support
+- Go - Add missing .mod tokens
+
 ## [1.17.3]
 - Go - Add comment block token
 
