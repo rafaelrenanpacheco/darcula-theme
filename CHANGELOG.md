@@ -1,5 +1,8 @@
 # Change Log
 
+## [1.18.1]
+- Java - Add triple quote token
+
 ## [1.18.0]
 - Add GraphQL support
 - Go - Add missing .mod tokens

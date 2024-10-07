@@ -640,6 +640,7 @@
         "string.quoted.single.tsx",
         "string.quoted.single.xml",
         "string.quoted.single.yaml",
+        "string.quoted.triple.java",
         "string.regexp.js",
         "string.regexp.ts",
         "string.regexp.tsx",
