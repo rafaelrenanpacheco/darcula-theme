@@ -1,5 +1,8 @@
 # Change Log
 
+## [1.18.2]
+- Java - Add local var token
+
 ## [1.18.1]
 - Java - Add triple quote token
 

@@ -290,6 +290,7 @@
         "storage.type.function.ts",
         "storage.type.function.tsx",
         "storage.type.js",
+        "storage.type.local.java",
         "storage.type.modifier.access.control.private.cpp",
         "storage.type.modifier.access.control.protected.cpp",
         "storage.type.modifier.access.control.public.cpp",
