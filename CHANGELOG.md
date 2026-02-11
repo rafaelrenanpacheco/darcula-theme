@@ -1,5 +1,8 @@
 # Change Log
 
+## [1.19.0]
+- Add Terraform support
+
 ## [1.18.2]
 - Java - Add local var token
 

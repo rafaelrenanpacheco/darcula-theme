@@ -59,6 +59,7 @@
         "constant.language.c",
         "constant.language.false.cpp",
         "constant.language.groovy",
+        "constant.language.hcl",
         "constant.language.java",
         "constant.language.json",
         "constant.language.null.go",
@@ -77,7 +78,9 @@
         "entity.name.tag.wildcard.scss",
         "entity.name.tag.yaml",
         "entity.name.type.any.go",
+        "entity.name.type.hcl",
         "entity.name.type.numeric.rust",
+        "entity.name.type.terraform",
         "entity.other.attribute-name.table.toml",
         "keyword.channel.go",
         "keyword.const.go",
@@ -141,6 +144,7 @@
         "keyword.control.from.tsx",
         "keyword.control.go",
         "keyword.control.groovy",
+        "keyword.control.hcl",
         "keyword.control.if.cpp",
         "keyword.control.if.scss",
         "keyword.control.ifeq.makefile",
@@ -195,6 +199,7 @@
         "keyword.operator.new.tsx",
         "keyword.operator.or.regexp",
         "keyword.operator.spread.graphql",
+        "keyword.operator.word.hcl",
         "keyword.other.alias.sql",
         "keyword.other.create.sql",
         "keyword.other.DDL.create.II.sql",
@@ -334,6 +339,7 @@
     },
     {
       "scope": [
+        "constant.numeric.integer.hcl",
         "constant.other.caps.rust",
         "constant.other.enum.java",
         "entity.name.function.preprocessor.c",
@@ -377,11 +383,13 @@
         "variable.other.definition.java",
         "variable.other.makefile",
         "variable.other.member.c",
+        "variable.other.member.hcl",
         "variable.other.object.property.java",
         "variable.other.property.java",
         "variable.other.property.js",
         "variable.other.property.ts",
         "variable.other.property.tsx",
+        "variable.other.readwrite.hcl",
         "variable.parameter.function.language.special.self.python",
         "variable.scss"
       ],
@@ -404,6 +412,7 @@
         "keyword.operator.pattern.css",
         "keyword.operator.pattern.scss",
         "meta.head.function.definition.cpp keyword.control.throw.cpp",
+        "meta.interpolation.hcl",
         "meta.method.body.java variable.other.definition.java",
         "meta.scope.prerequisites.makefile",
         "meta.template.expression.js",
@@ -480,7 +489,6 @@
         "comment.block.rust",
         "comment.block.scss",
         "comment.block.ts",
-        "comment.line.graphql.js",
         "comment.block.tsx",
         "comment.block.xml",
         "comment.line.double-dash.sql",
@@ -488,13 +496,16 @@
         "comment.line.double-slash.cpp",
         "comment.line.double-slash.go",
         "comment.line.double-slash.groovy",
+        "comment.line.double-slash.hcl",
         "comment.line.double-slash.java",
         "comment.line.double-slash.js",
         "comment.line.double-slash.rust",
         "comment.line.double-slash.ts",
         "comment.line.double-slash.tsx",
+        "comment.line.graphql.js",
         "comment.line.java-properties",
         "comment.line.number-sign.dockerfile",
+        "comment.line.number-sign.hcl",
         "comment.line.number-sign.makefile",
         "comment.line.number-sign.python",
         "comment.line.number-sign.toml",
@@ -612,6 +623,7 @@
         "string.quoted.double.go",
         "string.quoted.double.graphql",
         "string.quoted.double.groovy",
+        "string.quoted.double.hcl",
         "string.quoted.double.html",
         "string.quoted.double.java",
         "string.quoted.double.js",
@@ -836,6 +848,14 @@
         "foreground": "#9876aa",
         "fontStyle": "italic"
       }
+    },
+    {
+      "scope": [
+        "variable.other.enummember.hcl"
+      ],
+      "settings": {
+        "foreground": "#769aa5"
+      }
     }
   ],
   "semanticTokenColors": {
@@ -863,6 +883,9 @@
     },
     "typeParameter:rust": {
       "foreground": "#199187"
+    },
+    "hcl-blockLabel.terraform-name:terraform": {
+      "foreground": "#a9b7c6"
     }
   }
 }
