@@ -23,6 +23,7 @@ Darcula theme for [Visual Studio Code](https://code.visualstudio.com) based on [
 * Markdown
 * Properties
 * TOML
+* Terraform
 
 ## Screenshots
 ![Java-Entity](screenshots/java-entity.png)
