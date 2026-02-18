@@ -1,5 +1,8 @@
 # Change Log
 
+## [1.20.0]
+- Add Kotlin support
+
 ## [1.19.0]
 - Add Terraform support
 
