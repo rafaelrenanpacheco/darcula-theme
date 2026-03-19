@@ -884,6 +884,141 @@
       "settings": {
         "foreground": "#769aa5"
       }
+    },
+    {
+      "scope": [
+        "keyword.control.dart",
+        "keyword.operator.dart",
+        "keyword.other.dart",
+        "storage.modifier.dart",
+        "storage.type.dart",
+        "storage.type.primitive.dart",
+        "constant.language.boolean.dart",
+        "constant.language.null.dart",
+        "variable.language.this.dart",
+        "variable.language.super.dart"
+      ],
+      "settings": {
+        "foreground": "#cc7832"
+      }
+    },
+    {
+      "scope": [
+        "string.quoted.single.dart",
+        "string.quoted.double.dart",
+        "string.interpolated.dart",
+        "string.template.dart",
+        "constant.other.placeholder.dart"
+      ],
+      "settings": {
+        "foreground": "#6a8759"
+      }
+    },
+    {
+      "scope": [
+        "constant.numeric.dart",
+        "constant.numeric.integer.dart",
+        "constant.numeric.float.dart"
+      ],
+      "settings": {
+        "foreground": "#6897bb"
+      }
+    },
+    {
+      "scope": [
+        "comment.line.double-slash.dart",
+        "comment.block.dart"
+      ],
+      "settings": {
+        "foreground": "#808080"
+      }
+    },
+    {
+      "scope": [
+        "comment.block.documentation.dart",
+        "comment.line.documentation.dart"
+      ],
+      "settings": {
+        "foreground": "#629755",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.function.dart",
+        "support.function.dart"
+      ],
+      "settings": {
+        "foreground": "#ffc66d"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.type.class.dart",
+        "entity.name.type.extension.dart",
+        "entity.name.type.enum.dart",
+        "entity.name.type.mixin.dart",
+        "entity.name.type.typedef.dart",
+        "support.type.dart"
+      ],
+      "settings": {
+        "foreground": "#a9b7c6"
+      }
+    },
+    {
+      "scope": [
+        "storage.type.annotation.dart",
+        "meta.annotation.dart",
+        "entity.name.type.annotation.dart",
+        "entity.name.annotation.dart",
+        "punctuation.definition.annotation.dart"
+      ],
+      "settings": {
+        "foreground": "#bbb529"
+      }
+    },
+    {
+      "scope": [
+        "variable.parameter.dart",
+        "variable.parameter.function.dart",
+        "meta.parameter.dart variable.other.readwrite.dart"
+      ],
+      "settings": {
+        "foreground": "#a9b7c6"
+      }
+    },
+    {
+      "scope": [
+        "meta.named-argument.dart",
+        "entity.name.label.dart",
+        "variable.parameter.named.dart",
+        "meta.argument.named.dart"
+      ],
+      "settings": {
+        "foreground": "#9876aa"
+      }
+    },
+    {
+      "scope": [
+        "support.class.flutter.dart",
+        "support.type.widget.dart",
+        "entity.name.type.widget.dart",
+        "meta.class.body.dart entity.name.type.class.dart"
+      ],
+      "settings": {
+        "foreground": "#e8bf6a"
+      }
+    },
+    {
+      "scope": [
+        "variable.other.property.dart",
+        "variable.other.field.dart",
+        "constant.other.dart",
+        "constant.other.symbol.dart"
+      ],
+      "settings": {
+        "foreground": "#9876aa"
+      }
     }
   ],
   "semanticTokenColors": {
@@ -905,6 +1040,54 @@
     },
     "enumMember:rust": {
       "foreground": "#9876aa"
+    },
+    "namespace:dart": {
+      "foreground": "#a9b7c6"
+    },
+    "class:dart": {
+      "foreground": "#a9b7c6"
+    },
+    "enum:dart": {
+      "foreground": "#a9b7c6"
+    },
+    "typeParameter:dart": {
+      "foreground": "#a9b7c6"
+    },
+    "method:dart": {
+      "foreground": "#ffc66d"
+    },
+    "function:dart": {
+      "foreground": "#ffc66d"
+    },
+    "property:dart": {
+      "foreground": "#9876aa"
+    },
+    "enumMember:dart": {
+      "foreground": "#9876aa"
+    },
+    "number:dart": {
+      "foreground": "#6897bb"
+    },
+    "string:dart": {
+      "foreground": "#6a8759"
+    },
+    "comment:dart": {
+      "foreground": "#808080"
+    },
+    "keyword:dart": {
+      "foreground": "#cc7832"
+    },
+    "parameter:dart": {
+      "foreground": "#a9b7c6"
+    },
+    "label:dart": {
+      "foreground": "#9876aa"
+    },
+    "decorator:dart": {
+      "foreground": "#bbb529"
+    },
+    "class.defaultLibrary:dart": {
+      "foreground": "#e8bf6a"
     },
     "property:rust": {
       "foreground": "#9876aa"
